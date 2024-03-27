@@ -1,0 +1,32 @@
+{
+    "folders": [
+        {
+          "name": "root",
+          "path": ".."
+        },
+        {
+          "name": "web",
+          "path": "../apps/web"
+        },
+        {
+          "name": "mobile",
+          "path": "../apps/mobile"
+        },
+        {
+          "name": "ui",
+          "path": "../packages/ui"
+        },
+        {
+          "name": "uniswap",
+          "path": "../packages/uniswap"
+        },
+        {
+          "name": "utilities",
+          "path": "../packages/utilities"
+        },
+        {
+          "name": "wallet",
+          "path": "../packages/wallet"
+        },
+    ]
+}
