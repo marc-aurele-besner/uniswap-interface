@@ -1,4 +1,4 @@
-import { Currency, CurrencyAmount } from '@uniswap/sdk-core'
+import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import {
   FormatterRule,
   StandardCurrency,

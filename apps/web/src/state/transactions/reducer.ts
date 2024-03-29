@@ -1,5 +1,5 @@
 import { createSlice } from '@reduxjs/toolkit'
-import { ChainId } from '@uniswap/sdk-core'
+import { ChainId } from 'test-dex-sdk-core'
 
 import { SerializableTransactionReceipt, TransactionDetails, TransactionInfo } from './types'
 

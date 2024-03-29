@@ -1,4 +1,4 @@
-import { ChainId, CurrencyAmount } from '@uniswap/sdk-core'
+import { ChainId, CurrencyAmount } from 'test-dex-sdk-core'
 import { CyHttpMessages } from 'cypress/types/net-stubbing'
 
 import { FeatureFlag } from 'featureFlags'

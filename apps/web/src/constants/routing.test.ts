@@ -1,4 +1,4 @@
-import { ChainId } from '@uniswap/sdk-core'
+import { ChainId } from 'test-dex-sdk-core'
 
 import { COMMON_BASES } from './routing'
 

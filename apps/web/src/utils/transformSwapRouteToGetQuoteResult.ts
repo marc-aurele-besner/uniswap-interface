@@ -1,5 +1,5 @@
 import { Protocol } from '@uniswap/router-sdk'
-import { Currency, CurrencyAmount, TradeType } from '@uniswap/sdk-core'
+import { Currency, CurrencyAmount, TradeType } from 'test-dex-sdk-core'
 // This file is lazy-loaded, so the import of smart-order-router is intentional.
 // eslint-disable-next-line @typescript-eslint/no-restricted-imports
 import { routeAmountsToString, SwapRoute } from '@uniswap/smart-order-router'
@@ -43,12 +43,12 @@ export function transformSwapRouteToGetQuoteResult(
 
       let edgeAmountIn = undefined
       if (i === 0) {
-        edgeAmountIn = tradeType === TradeType.EXACT_INPUT ? amount.quotient.toString() : quote.quotient.toString()
+        edgeAmountIn = tradeType === TradeType.EXACT_INPUT ? (amount as any).quotient.toString() : (quote as any).quotient.toString()
       }
 
       let edgeAmountOut = undefined
       if (i === pools.length - 1) {
-        edgeAmountOut = tradeType === TradeType.EXACT_INPUT ? quote.quotient.toString() : amount.quotient.toString()
+        edgeAmountOut = tradeType === TradeType.EXACT_INPUT ? (quote as any).quotient.toString() : (amount as any).quotient.toString()
       }
 
       if (nextPool instanceof Pool) {
@@ -123,14 +123,14 @@ export function transformSwapRouteToGetQuoteResult(
     blockNumber: blockNumber.toString(),
     amount: amount.quotient.toString(),
     amountDecimals: amount.toExact(),
-    quote: quote.quotient.toString(),
-    quoteDecimals: quote.toExact(),
-    quoteGasAdjusted: quoteGasAdjusted.quotient.toString(),
-    quoteGasAdjustedDecimals: quoteGasAdjusted.toExact(),
-    gasUseEstimateQuote: estimatedGasUsedQuoteToken.quotient.toString(),
-    gasUseEstimateQuoteDecimals: estimatedGasUsedQuoteToken.toExact(),
+    quote: (quote as any).quotient.toString(),
+    quoteDecimals: (quote as any).toExact(),
+    quoteGasAdjusted: (quoteGasAdjusted as any).quotient.toString(),
+    quoteGasAdjustedDecimals: (quoteGasAdjusted as any).toExact(),
+    gasUseEstimateQuote: (estimatedGasUsedQuoteToken as any).quotient.toString(),
+    gasUseEstimateQuoteDecimals: (estimatedGasUsedQuoteToken as any).toExact(),
     gasUseEstimate: estimatedGasUsed.toString(),
-    gasUseEstimateUSD: estimatedGasUsedUSD.toExact(),
+    gasUseEstimateUSD: (estimatedGasUsedUSD as any).toExact(),
     gasPriceWei: gasPriceWei.toString(),
     route: routeResponse,
     routeString: routeAmountsToString(route),

@@ -1,4 +1,4 @@
-import { ChainId, Currency, NativeCurrency, Token, UNI_ADDRESSES, WETH9 } from '@uniswap/sdk-core'
+import { ChainId, Currency, NativeCurrency, Token, UNI_ADDRESSES, WETH9 } from 'test-dex-sdk-core'
 import invariant from 'tiny-invariant'
 
 // eslint-disable-next-line no-restricted-syntax
@@ -6,6 +6,13 @@ export const NATIVE_CHAIN_ID = 'NATIVE'
 
 export const USDC_MAINNET = new Token(
   ChainId.MAINNET,
+  '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
+  6,
+  'USDC',
+  'USD//C'
+)
+export const USDC_NOVA = new Token( // To-do: update this token address
+  ChainId.NOVA,
   '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
   6,
   'USDC',
@@ -467,6 +474,7 @@ export function nativeOnChain(chainId: number): NativeCurrency | Token {
 export const TOKEN_SHORTHANDS: { [shorthand: string]: { [chainId in ChainId]?: string } } = {
   USDC: {
     [ChainId.MAINNET]: USDC_MAINNET.address,
+    [ChainId.NOVA]: USDC_NOVA.address,
     [ChainId.ARBITRUM_ONE]: USDC_ARBITRUM.address,
     [ChainId.ARBITRUM_GOERLI]: USDC_ARBITRUM_GOERLI.address,
     [ChainId.OPTIMISM]: USDC_OPTIMISM.address,
@@ -485,6 +493,7 @@ export const TOKEN_SHORTHANDS: { [shorthand: string]: { [chainId in ChainId]?: s
 
 const STABLECOINS: { [chainId in ChainId]: Token[] } = {
   [ChainId.MAINNET]: [USDC_MAINNET, DAI, USDT],
+  [ChainId.NOVA]: [USDC_NOVA],
   [ChainId.ARBITRUM_ONE]: [USDC_ARBITRUM, DAI_ARBITRUM_ONE],
   [ChainId.ARBITRUM_GOERLI]: [USDC_ARBITRUM_GOERLI],
   [ChainId.OPTIMISM]: [USDC_OPTIMISM, DAI_OPTIMISM],

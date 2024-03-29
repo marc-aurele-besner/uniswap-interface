@@ -1,5 +1,5 @@
 import { ApolloError } from '@apollo/client'
-import { Percent } from '@uniswap/sdk-core'
+import { Percent } from 'test-dex-sdk-core'
 import { ProtocolVersion } from 'graphql/data/__generated__/types-and-hooks'
 import { useTopPools } from 'graphql/data/pools/useTopPools'
 import Router from 'react-router-dom'

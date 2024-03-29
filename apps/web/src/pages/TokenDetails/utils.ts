@@ -1,5 +1,5 @@
 import { t } from '@lingui/macro'
-import { Currency } from '@uniswap/sdk-core'
+import { Currency } from 'test-dex-sdk-core'
 
 export const getTokenPageTitle = (currency?: Currency) => {
   const tokenName = currency?.name

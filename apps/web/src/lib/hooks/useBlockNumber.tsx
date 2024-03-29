@@ -1,4 +1,4 @@
-import { ChainId } from '@uniswap/sdk-core'
+import { ChainId } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { DEPRECATED_RPC_PROVIDERS, RPC_PROVIDERS } from 'constants/providers'
 import { useFallbackProviderEnabled } from 'featureFlags/flags/fallbackProvider'
@@ -85,7 +85,7 @@ export function BlockNumberProvider({ children }: { children: ReactNode }) {
   // Poll once for the mainnet block number using the network provider.
   const networkProviders = useFallbackProviderEnabled() ? RPC_PROVIDERS : DEPRECATED_RPC_PROVIDERS
   useEffect(() => {
-    networkProviders[ChainId.MAINNET]
+    networkProviders[ChainId.NOVA]
       .getBlockNumber()
       .then((block) => onChainBlock(ChainId.MAINNET, block))
       // swallow errors - it's ok if this fails, as we'll try again if we activate mainnet

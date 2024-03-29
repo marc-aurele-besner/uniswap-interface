@@ -1,5 +1,5 @@
 import { Trans, t } from '@lingui/macro'
-import { ChainId, CurrencyAmount, Token } from '@uniswap/sdk-core'
+import { ChainId, CurrencyAmount, Token } from 'test-dex-sdk-core'
 import { FeeAmount } from '@uniswap/v3-sdk'
 import { ChartHeader } from 'components/Charts/ChartHeader'
 import { Chart } from 'components/Charts/ChartModel'

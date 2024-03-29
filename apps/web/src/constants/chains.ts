@@ -1,7 +1,8 @@
-import { ChainId, SUPPORTED_CHAINS, SupportedChainsType, V2_ROUTER_ADDRESSES } from '@uniswap/sdk-core'
+import { ChainId, SUPPORTED_CHAINS, SupportedChainsType, V2_ROUTER_ADDRESSES } from 'test-dex-sdk-core'
 
 export const CHAIN_IDS_TO_NAMES = {
   [ChainId.MAINNET]: 'mainnet',
+  [ChainId.NOVA]: 'nova',
   [ChainId.GOERLI]: 'goerli',
   [ChainId.SEPOLIA]: 'sepolia',
   [ChainId.POLYGON]: 'polygon',

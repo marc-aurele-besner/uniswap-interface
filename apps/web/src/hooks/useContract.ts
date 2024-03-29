@@ -8,7 +8,7 @@ import {
   NONFUNGIBLE_POSITION_MANAGER_ADDRESSES,
   V2_ROUTER_ADDRESSES,
   V3_MIGRATOR_ADDRESSES,
-} from '@uniswap/sdk-core'
+} from 'test-dex-sdk-core'
 import IUniswapV2PairJson from '@uniswap/v2-core/build/IUniswapV2Pair.json'
 import IUniswapV2Router02Json from '@uniswap/v2-periphery/build/IUniswapV2Router02.json'
 import NonfungiblePositionManagerJson from '@uniswap/v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json'
@@ -73,14 +73,14 @@ export function useContract<T extends Contract = Contract>(
 
 function useMainnetContract<T extends Contract = Contract>(address: string | undefined, ABI: any): T | null {
   const { chainId } = useWeb3React()
-  const isMainnet = chainId === ChainId.MAINNET
+  const isMainnet = chainId === ChainId.NOVA
   const contract = useContract(isMainnet ? address : undefined, ABI, false)
   const providers = useFallbackProviderEnabled() ? RPC_PROVIDERS : DEPRECATED_RPC_PROVIDERS
 
   return useMemo(() => {
     if (isMainnet) return contract
     if (!address) return null
-    const provider = providers[ChainId.MAINNET]
+    const provider = providers[ChainId.NOVA]
     try {
       return getContract(address, ABI, provider)
     } catch (error) {

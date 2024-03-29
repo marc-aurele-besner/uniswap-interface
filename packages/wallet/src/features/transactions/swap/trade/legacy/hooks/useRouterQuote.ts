@@ -1,4 +1,4 @@
-import { TradeType } from '@uniswap/sdk-core'
+import { TradeType } from 'test-dex-sdk-core'
 import { useMemo } from 'react'
 import { GqlResult } from 'uniswap/src/data/types'
 import {

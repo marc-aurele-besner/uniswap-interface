@@ -13468,7 +13468,6 @@ __metadata:
     "@uniswap/permit2-sdk": 1.2.0
     "@uniswap/redux-multicall": 1.1.8
     "@uniswap/router-sdk": 1.8.0
-    "@uniswap/sdk-core": "workspace:^"
     "@uniswap/smart-order-router": 3.17.3
     "@uniswap/token-lists": 1.0.0-beta.33
     "@uniswap/uniswapx-sdk": 1.4.1
@@ -13588,6 +13587,7 @@ __metadata:
     swc-loader: ^0.2.3
     terser: 5.24.0
     terser-webpack-plugin: 5.3.9
+    test-dex-sdk-core: ^4.2.1
     tiny-invariant: 1.3.1
     ts-jest: ^29.1.1
     tsafe: 1.6.4
@@ -13693,7 +13693,6 @@ __metadata:
     "@uniswap/analytics-events": 2.31.0
     "@uniswap/eslint-config": "workspace:^"
     "@uniswap/ethers-rs-mobile": 0.0.5
-    "@uniswap/sdk-core": 4.1.2
     "@uniswap/v3-sdk": 3.10.2
     "@walletconnect/core": 2.11.2
     "@walletconnect/react-native-compat": 2.11.2
@@ -13790,6 +13789,7 @@ __metadata:
     redux-saga-test-plan: 4.0.4
     rive-react-native: 6.1.1
     statsig-react-native: 4.11.0
+    test-dex-sdk-core: ^4.2.1
     typed-redux-saga: 1.5.0
     typescript: 5.3.3
     uniswap: "workspace:^"
@@ -13828,25 +13828,11 @@ __metadata:
   resolution: "@uniswap/router-sdk@npm:1.8.0"
   dependencies:
     "@ethersproject/abi": ^5.5.0
-    "@uniswap/sdk-core": ^4.0.7
     "@uniswap/swap-router-contracts": ^1.1.0
     "@uniswap/v2-sdk": ^4.1.0
     "@uniswap/v3-sdk": ^3.10.1
+    test-dex-sdk-core: ^4.0.7
   checksum: c885e4a2e42f62768a7fa1f7c5561d205b260975c728fb027537d5af4b08fea37435c6705d7bf2ae8242e25385afda876fce98de9afc689825ed60504a3a5550
-  languageName: node
-  linkType: hard
-
-"@uniswap/sdk-core@npm:4.1.2":
-  version: 4.1.2
-  resolution: "@uniswap/sdk-core@npm:4.1.2"
-  dependencies:
-    "@ethersproject/address": ^5.0.2
-    big.js: ^5.2.2
-    decimal.js-light: ^2.5.0
-    jsbi: ^3.1.4
-    tiny-invariant: ^1.1.0
-    toformat: ^2.0.0
-  checksum: 874bd4bae6c9df2d4b684bb233a1b2c4c558f03f97f0795a6a155c100da5220e3ba723895104174a153418ea4c3e760208313a24d94dbcdd17e6817f6c200a8e
   languageName: node
   linkType: hard
 
@@ -13857,7 +13843,6 @@ __metadata:
     "@uniswap/default-token-list": ^11.2.0
     "@uniswap/permit2-sdk": ^1.2.0
     "@uniswap/router-sdk": ^1.6.0
-    "@uniswap/sdk-core": ^4.0.7
     "@uniswap/swap-router-contracts": ^1.3.0
     "@uniswap/token-lists": ^1.0.0-beta.31
     "@uniswap/universal-router": ^1.0.1
@@ -13876,6 +13861,7 @@ __metadata:
     mnemonist: ^0.38.3
     node-cache: ^5.1.2
     stats-lite: ^2.2.0
+    test-dex-sdk-core: ^4.0.7
   peerDependencies:
     jsbi: ^3.2.0
   checksum: 2bcd7761548d3d1d426096d0af8ee4a315e1b9c2d96186f6708e406da8bb1c3929579f6f457b1f3742289e8bb6d3dca465b6c511526ed1c43b92d5cdc16fea69
@@ -13910,8 +13896,8 @@ __metadata:
     "@ethersproject/bytes": ^5.7.0
     "@ethersproject/providers": ^5.7.0
     "@uniswap/permit2-sdk": ^1.2.0
-    "@uniswap/sdk-core": ^4.0.3
     ethers: ^5.7.0
+    test-dex-sdk-core: ^4.0.3
   checksum: a8063730c5c588bf70118f231c34e1451237a19dabae2d462abdbaa650639b33318a4408490c80d9152542ccdc3a93a0e2eefaa7e386aeafef12f5f2c19e822f
   languageName: node
   linkType: hard
@@ -13922,12 +13908,12 @@ __metadata:
   dependencies:
     "@uniswap/permit2-sdk": ^1.2.0
     "@uniswap/router-sdk": ^1.8.0
-    "@uniswap/sdk-core": ^4.0.7
     "@uniswap/universal-router": 1.6.0
     "@uniswap/v2-sdk": ^4.1.0
     "@uniswap/v3-sdk": ^3.10.1
     bignumber.js: ^9.0.2
     ethers: ^5.3.1
+    test-dex-sdk-core: ^4.0.7
   checksum: 4b2036ac4f320c7b8aa107f5b4fad17c8e6bf3b56d22e0297085ad8742bd7277573250701d834fb5d79c5571f60b160f6895d22856cf616142b19a74469cd9ca
   languageName: node
   linkType: hard
@@ -13973,7 +13959,7 @@ __metadata:
   dependencies:
     "@ethersproject/address": ^5.0.0
     "@ethersproject/solidity": ^5.0.0
-    "@uniswap/sdk-core": ^4.0.7
+    test-dex-sdk-core: ^4.0.7
     tiny-invariant: ^1.1.0
     tiny-warning: ^1.0.3
   checksum: c2722fc800339fd0cd4c3aa9aa2b083e3f29ce6df15ddf0e6f671c378d50a9ec2d05035d80e9ecf6418aeb716a26c43e13f79b6e7c05931f324954ed4f44b0e7
@@ -14013,10 +13999,10 @@ __metadata:
   dependencies:
     "@ethersproject/abi": ^5.0.12
     "@ethersproject/solidity": ^5.0.9
-    "@uniswap/sdk-core": ^4.0.7
     "@uniswap/swap-router-contracts": ^1.2.1
     "@uniswap/v3-periphery": ^1.1.1
     "@uniswap/v3-staker": 1.0.0
+    test-dex-sdk-core: ^4.0.7
     tiny-invariant: ^1.1.0
     tiny-warning: ^1.0.3
   checksum: 187c34255fc082f8d424bd6e5faba825cd8dda01a9ae1d3a4377c4f11cec123562426afedff8c0513ad86f4458f37ee4ef8a186b86a087b8bd2736d74402cc92
@@ -19971,8 +19957,8 @@ __metadata:
   resolution: "cypress-hardhat@npm:2.5.0"
   dependencies:
     "@uniswap/permit2-sdk": ^1.2.0
-    "@uniswap/sdk-core": ">= 3"
     "@uniswap/universal-router-sdk": ^1.5.4
+    test-dex-sdk-core: ">= 3"
   peerDependencies:
     cypress: ^12.9.0
     ethers: ^5.1.3
@@ -42183,6 +42169,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"test-dex-sdk-core@npm:^4.2.1":
+  version: 4.2.1
+  resolution: "test-dex-sdk-core@npm:4.2.1"
+  dependencies:
+    "@ethersproject/address": ^5.0.2
+    big.js: ^5.2.2
+    decimal.js-light: ^2.5.0
+    jsbi: ^3.1.4
+    tiny-invariant: ^1.1.0
+    toformat: ^2.0.0
+  checksum: d4528f11596e2b0b34ff9c20b519be89420104a6bfdb7fed200c7d1c8d34528589a3e7233204b3b4f80bafb61f45d366c339a85ee907c1b0eb407b523e8130b1
+  languageName: node
+  linkType: hard
+
 "test-exclude@npm:^6.0.0":
   version: 6.0.0
   resolution: "test-exclude@npm:6.0.0"
@@ -44175,7 +44175,6 @@ __metadata:
     "@uniswap/analytics": 1.7.0
     "@uniswap/analytics-events": 2.31.0
     "@uniswap/eslint-config": "workspace:^"
-    "@uniswap/sdk-core": 4.1.2
     aws-appsync-auth-link: 3.0.7
     aws-appsync-subscription-link: 3.1.3
     dayjs: 1.11.7
@@ -44188,6 +44187,7 @@ __metadata:
     react-native-device-info: 10.0.2
     react-test-renderer: 18.2.0
     subscriptions-transport-ws: 0.11.0
+    test-dex-sdk-core: ^4.2.1
     typescript: 5.3.3
     zen-observable-ts: 1.2.5
   languageName: unknown
@@ -44679,7 +44679,6 @@ __metadata:
     "@uniswap/eslint-config": "workspace:^"
     "@uniswap/permit2-sdk": 1.2.0
     "@uniswap/router-sdk": 1.8.0
-    "@uniswap/sdk-core": 4.1.2
     "@uniswap/universal-router-sdk": 1.7.1
     "@uniswap/v2-sdk": 4.1.0
     "@uniswap/v3-sdk": 3.10.2
@@ -44727,6 +44726,7 @@ __metadata:
     redux-saga-test-plan: 4.0.4
     statsig-react: 1.32.0
     statsig-react-native: 4.11.0
+    test-dex-sdk-core: ^4.2.1
     typed-redux-saga: 1.5.0
     typescript: 5.3.3
     ui: "workspace:^"

@@ -1,4 +1,4 @@
-import { ChainId } from '@uniswap/sdk-core'
+import { ChainId } from 'test-dex-sdk-core'
 import { BaseVariant, FeatureFlag, useBaseFlag } from '../index'
 
 export function useOutageBannerOptimism(): BaseVariant {
@@ -32,6 +32,7 @@ export function useOutageBanners(): Record<ChainId, boolean> {
     [ChainId.POLYGON]: useShowOutageBannerPolygon(),
 
     [ChainId.MAINNET]: false,
+    [ChainId.NOVA]: false,
     [ChainId.GOERLI]: false,
     [ChainId.SEPOLIA]: false,
     [ChainId.OPTIMISM_GOERLI]: false,

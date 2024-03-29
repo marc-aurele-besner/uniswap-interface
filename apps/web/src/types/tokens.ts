@@ -1,3 +1,3 @@
-import { Token } from '@uniswap/sdk-core'
+import { Token } from 'test-dex-sdk-core'
 
 export class UserAddedToken extends Token {}

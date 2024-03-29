@@ -1,4 +1,4 @@
-import { ChainId } from '@uniswap/sdk-core'
+import { ChainId } from 'test-dex-sdk-core'
 import { DAI, NATIVE_CHAIN_ID, nativeOnChain } from 'constants/tokens'
 import { Chain, SafetyLevel, Token, TokenStandard } from 'graphql/data/__generated__/types-and-hooks'
 import { gqlTokenToCurrencyInfo } from 'graphql/data/types'

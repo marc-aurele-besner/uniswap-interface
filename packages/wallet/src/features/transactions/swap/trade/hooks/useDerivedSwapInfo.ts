@@ -1,4 +1,4 @@
-import { TradeType } from '@uniswap/sdk-core'
+import { TradeType } from 'test-dex-sdk-core'
 import { useMemo } from 'react'
 import { ChainId } from 'wallet/src/constants/chains'
 import { FEATURE_FLAGS } from 'wallet/src/features/experiments/constants'

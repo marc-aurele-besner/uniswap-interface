@@ -26,7 +26,7 @@ jest.mock('uuid', () => ({
   v4: () => 'fixed-uuid-value',
 }))
 
-import { Percent } from '@uniswap/sdk-core'
+import { Percent } from 'test-dex-sdk-core'
 
 import SwapLineItem, { SwapLineItemType } from './SwapLineItem'
 

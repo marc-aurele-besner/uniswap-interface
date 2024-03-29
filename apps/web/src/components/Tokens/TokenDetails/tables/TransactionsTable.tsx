@@ -1,6 +1,6 @@
 import { Trans } from '@lingui/macro'
 import { createColumnHelper } from '@tanstack/react-table'
-import { ChainId, Token } from '@uniswap/sdk-core'
+import { ChainId, Token } from 'test-dex-sdk-core'
 import Row from 'components/Row'
 import { Table } from 'components/Table'
 import { Cell } from 'components/Table/Cell'

@@ -1,5 +1,5 @@
 import { ApolloError } from '@apollo/client'
-import { ChainId, Percent, Token } from '@uniswap/sdk-core'
+import { ChainId, Percent, Token } from 'test-dex-sdk-core'
 import { TokenDetailsPoolsTable } from 'components/Tokens/TokenDetails/tables/TokenDetailsPoolsTable'
 import { ProtocolVersion } from 'graphql/data/__generated__/types-and-hooks'
 import { usePoolsFromTokenAddress } from 'graphql/data/pools/usePoolsFromTokenAddress'

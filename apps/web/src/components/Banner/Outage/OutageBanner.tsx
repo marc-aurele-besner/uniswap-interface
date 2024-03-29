@@ -1,5 +1,5 @@
 import { Trans } from '@lingui/macro'
-import { ChainId } from '@uniswap/sdk-core'
+import { ChainId } from 'test-dex-sdk-core'
 import { Container, PopupContainer, StyledXButton, TextContainer } from 'components/Banner/shared/styled'
 import { chainIdToBackendName } from 'graphql/data/util'
 import { useState } from 'react'
