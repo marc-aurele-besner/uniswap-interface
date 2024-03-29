@@ -1,5 +1,4 @@
 import { Trans } from '@lingui/macro'
-import { CurrencyAmount, Price } from 'test-dex-sdk-core'
 import {
   useOpenOffchainActivityModal,
   useOrderAmounts,
@@ -16,6 +15,7 @@ import { Checkbox } from 'nft/components/layout/Checkbox'
 import { useMemo, useState } from 'react'
 import { ArrowRight } from 'react-feather'
 import styled, { useTheme } from 'styled-components'
+import { CurrencyAmount, Price } from 'test-dex-sdk-core'
 import { EllipsisStyle, ThemedText } from 'theme/components'
 import { useFormatter } from 'utils/formatNumbers'
 

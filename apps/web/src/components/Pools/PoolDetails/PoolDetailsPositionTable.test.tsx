@@ -1,7 +1,7 @@
-import { Price, WETH9 } from 'test-dex-sdk-core'
 import { FeeAmount, Pool } from '@uniswap/v3-sdk'
 import { PositionInfo } from 'components/AccountDrawer/MiniPortfolio/Pools/cache'
 import { USDC_MAINNET } from 'constants/tokens'
+import { Price, WETH9 } from 'test-dex-sdk-core'
 import { render, screen } from 'test-utils/render'
 
 import { PoolDetailsPositionsTable } from './PoolDetailsPositionsTable'

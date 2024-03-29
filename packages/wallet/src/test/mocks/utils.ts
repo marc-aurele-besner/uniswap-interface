@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import { PropsWithChildren, ReactNode } from 'react'
+import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 // eslint-disable-next-line no-restricted-imports
 import {
   addFiatSymbolToNumber,

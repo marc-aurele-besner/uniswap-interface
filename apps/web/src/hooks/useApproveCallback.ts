@@ -1,6 +1,6 @@
-import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import { ApprovalState, useApproval } from 'lib/hooks/useApproval'
 import { useCallback } from 'react'
+import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 
 import { useHasPendingApproval, useTransactionAdder } from '../state/transactions/hooks'
 import { TransactionType } from '../state/transactions/types'

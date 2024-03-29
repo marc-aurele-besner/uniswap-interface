@@ -1,6 +1,6 @@
-import { ChainId, Currency } from 'test-dex-sdk-core'
 import { TransactionStatus } from 'graphql/data/__generated__/types-and-hooks'
 import { UniswapXOrderDetails } from 'state/signatures/types'
+import { ChainId, Currency } from 'test-dex-sdk-core'
 
 /**
  * TODO: refactor parsing / Activity so that all Activity Types can have a detail sheet.

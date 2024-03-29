@@ -1,5 +1,5 @@
-import { Currency, Token } from 'test-dex-sdk-core'
 import { Tags, TokenInfo, TokenList } from '@uniswap/token-lists'
+import { Currency, Token } from 'test-dex-sdk-core'
 
 import { isAddress } from 'utilities/src/addresses'
 

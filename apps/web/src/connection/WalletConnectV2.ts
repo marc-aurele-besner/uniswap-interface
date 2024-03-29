@@ -1,8 +1,8 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { URI_AVAILABLE, WalletConnect, WalletConnectConstructorArgs } from '@web3-react/walletconnect-v2'
 import { sendAnalyticsEvent } from 'analytics'
 import { L1_CHAIN_IDS, L2_CHAIN_IDS } from 'constants/chains'
 import { APP_RPC_URLS } from 'constants/networks'
+import { ChainId } from 'test-dex-sdk-core'
 import { Z_INDEX } from 'theme/zIndex'
 import { isAndroid, isIOS } from 'utils/platform'
 

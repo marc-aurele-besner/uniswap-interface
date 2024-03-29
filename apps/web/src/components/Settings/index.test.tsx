@@ -1,5 +1,5 @@
-import { Percent } from 'test-dex-sdk-core'
 import { isSupportedChain, isUniswapXSupportedChain } from 'constants/chains'
+import { Percent } from 'test-dex-sdk-core'
 import { mocked } from 'test-utils/mocked'
 import { fireEvent, render, screen, waitFor } from 'test-utils/render'
 

@@ -1,6 +1,5 @@
 import { Trans } from '@lingui/macro'
 import { BrowserEvent, SharedEventName } from '@uniswap/analytics-events'
-import { ChainId } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { TraceEvent } from 'analytics'
 import Loader from 'components/Icons/LoadingSpinner'
@@ -8,6 +7,7 @@ import { ChainLogo } from 'components/Logo/ChainLogo'
 import { getChainInfo } from 'constants/chainInfo'
 import { CheckMarkIcon } from 'nft/components/icons'
 import styled, { useTheme } from 'styled-components'
+import { ChainId } from 'test-dex-sdk-core'
 
 const LOGO_SIZE = 20
 

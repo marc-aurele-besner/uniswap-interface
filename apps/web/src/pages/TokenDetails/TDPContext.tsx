@@ -1,5 +1,4 @@
 import { QueryResult } from '@apollo/client'
-import { ChainId, Currency } from 'test-dex-sdk-core'
 import { TDPChartState } from 'components/Tokens/TokenDetails/ChartSection'
 import { Warning } from 'constants/tokenSafety'
 import {
@@ -9,6 +8,7 @@ import {
   TokenQuery,
 } from 'graphql/data/__generated__/types-and-hooks'
 import { PropsWithChildren, createContext, useContext } from 'react'
+import { ChainId, Currency } from 'test-dex-sdk-core'
 
 export type MultiChainMap = {
   [chain in Chain]?: { address?: string; balance?: PortfolioTokenBalancePartsFragment } | undefined

@@ -1,5 +1,4 @@
 import { Trans } from '@lingui/macro'
-import { Percent } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import SettingsTab from 'components/Settings'
 import { ReactNode } from 'react'
@@ -10,6 +9,7 @@ import { useAppDispatch } from 'state/hooks'
 import { resetMintState } from 'state/mint/actions'
 import { resetMintState as resetMintV3State } from 'state/mint/v3/actions'
 import styled, { useTheme } from 'styled-components'
+import { Percent } from 'test-dex-sdk-core'
 import { ThemedText } from 'theme/components'
 import { flexRowNoWrap } from 'theme/styles'
 

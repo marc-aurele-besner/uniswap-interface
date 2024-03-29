@@ -1,9 +1,9 @@
-import { Currency, CurrencyAmount, NativeCurrency, Percent, Token, TradeType } from 'test-dex-sdk-core'
 import useAutoSlippageTolerance from 'hooks/useAutoSlippageTolerance'
 import { useDebouncedTrade } from 'hooks/useDebouncedTrade'
 import { useMemo } from 'react'
 import { ClassicTrade, RouterPreference, TradeState } from 'state/routing/types'
 import { isClassicTrade } from 'state/routing/utils'
+import { Currency, CurrencyAmount, NativeCurrency, Percent, Token, TradeType } from 'test-dex-sdk-core'
 
 export default function useDerivedPayWithAnyTokenSwapInfo(
   inputCurrency?: Currency,

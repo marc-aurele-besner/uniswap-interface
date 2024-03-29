@@ -1,5 +1,4 @@
 import { t } from '@lingui/macro'
-import { Currency, Token } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { CurrencyListRow, CurrencyListSectionTitle } from 'components/SearchModal/CurrencyList'
 import { CurrencySearchFilters } from 'components/SearchModal/CurrencySearch'
@@ -8,6 +7,7 @@ import { useTokenBalances } from 'hooks/useTokenBalances'
 import { getTokenFilter } from 'lib/hooks/useTokenList/filtering'
 import { getSortedPortfolioTokens, tokenQuerySortComparator } from 'lib/hooks/useTokenList/sorting'
 import { useMemo } from 'react'
+import { Currency, Token } from 'test-dex-sdk-core'
 import { UserAddedToken } from 'types/tokens'
 
 interface CurrencySearchParams {

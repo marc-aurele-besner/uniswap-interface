@@ -1,5 +1,5 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { useFeatureFlagsContext } from 'featureFlags'
+import { ChainId } from 'test-dex-sdk-core'
 
 import { DynamicConfigName, useDynamicConfig } from '.'
 

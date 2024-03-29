@@ -1,5 +1,4 @@
 import { TransactionRequest } from '@ethersproject/abstract-provider'
-import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { nativeOnChain } from 'constants/tokens'
 import { useCurrency } from 'hooks/Tokens'
@@ -11,6 +10,7 @@ import { useCurrencyBalances } from 'lib/hooks/useCurrencyBalance'
 import tryParseCurrencyAmount from 'lib/utils/tryParseCurrencyAmount'
 import { useMemo } from 'react'
 import { SendState } from 'state/send/SendContext'
+import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import {
   useUnitagByAddressWithoutFlag,
   useUnitagByNameWithoutFlag,

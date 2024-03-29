@@ -1,4 +1,3 @@
-import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import { memo, useCallback, useEffect, useMemo, useRef } from 'react'
 import { useTranslation } from 'react-i18next'
 import {
@@ -7,12 +6,13 @@ import {
   TextInputProps,
   TextInputSelectionChangeEventData,
 } from 'react-native'
+import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import { Flex, FlexProps, SpaceTokens, Text } from 'ui/src'
 import { fonts } from 'ui/src/theme'
 import { NumberType } from 'utilities/src/format/types'
+import { SelectTokenButton } from 'wallet/src/components/TokenSelector/SelectTokenButton'
 import { AmountInput } from 'wallet/src/components/input/AmountInput'
 import { MaxAmountButton } from 'wallet/src/components/input/MaxAmountButton'
-import { SelectTokenButton } from 'wallet/src/components/TokenSelector/SelectTokenButton'
 import { CurrencyInfo } from 'wallet/src/features/dataApi/types'
 import { useLocalizationContext } from 'wallet/src/features/language/LocalizationContext'
 import { Warning, WarningLabel } from 'wallet/src/features/transactions/WarningModal/types'

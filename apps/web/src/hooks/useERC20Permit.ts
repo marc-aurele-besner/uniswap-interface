@@ -1,10 +1,10 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import { splitSignature } from '@ethersproject/bytes'
-import { ChainId, Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import JSBI from 'jsbi'
 import { useSingleCallResult } from 'lib/hooks/multicall'
 import { useMemo, useState } from 'react'
+import { ChainId, Currency, CurrencyAmount } from 'test-dex-sdk-core'
 
 import { DAI, UNI, USDC_MAINNET } from '../constants/tokens'
 import { useEIP2612Contract } from './useContract'

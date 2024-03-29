@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import JSBI from 'jsbi'
+import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 
 const MIN_NATIVE_CURRENCY_FOR_GAS: JSBI = JSBI.exponentiate(JSBI.BigInt(10), JSBI.BigInt(16)) // .01 ETH
 /**

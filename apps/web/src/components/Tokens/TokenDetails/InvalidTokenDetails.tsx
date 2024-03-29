@@ -1,11 +1,11 @@
 import { Trans } from '@lingui/macro'
-import { ChainId } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { ButtonPrimary } from 'components/Button'
 import { getChainInfo } from 'constants/chainInfo'
 import useSelectChain from 'hooks/useSelectChain'
 import { useNavigate } from 'react-router-dom'
 import styled from 'styled-components'
+import { ChainId } from 'test-dex-sdk-core'
 import { ThemedText } from 'theme/components'
 
 import { ReactComponent as EyeIcon } from '../../../assets/svg/eye.svg'

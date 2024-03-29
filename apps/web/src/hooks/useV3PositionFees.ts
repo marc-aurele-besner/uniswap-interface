@@ -1,9 +1,9 @@
 import { BigNumber } from '@ethersproject/bignumber'
-import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import { Pool } from '@uniswap/v3-sdk'
 import { useSingleCallResult } from 'lib/hooks/multicall'
 import useBlockNumber from 'lib/hooks/useBlockNumber'
 import { useEffect, useState } from 'react'
+import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import { unwrappedToken } from 'utils/unwrappedToken'
 
 import { useV3NFTPositionManagerContract } from './useContract'

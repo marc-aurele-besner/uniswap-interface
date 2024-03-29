@@ -1,5 +1,4 @@
 /* eslint-disable complexity */
-import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import { forwardRef, memo, useCallback, useEffect, useMemo, useRef } from 'react'
 import {
   NativeSyntheticEvent,
@@ -15,13 +14,14 @@ import {
   withSequence,
   withTiming,
 } from 'react-native-reanimated'
+import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import { AnimatedFlex, Flex, FlexProps, Icons, Text, TouchableArea, useSporeColors } from 'ui/src'
 import { fonts } from 'ui/src/theme'
 import { isDetoxBuild } from 'utilities/src/environment'
 import { NumberType } from 'utilities/src/format/types'
 import { useForwardRef, usePrevious } from 'utilities/src/react/hooks'
-import { AmountInput } from 'wallet/src/components/input/AmountInput'
 import { SelectTokenButton } from 'wallet/src/components/TokenSelector/SelectTokenButton'
+import { AmountInput } from 'wallet/src/components/input/AmountInput'
 import { CurrencyInfo } from 'wallet/src/features/dataApi/types'
 import { useAppFiatCurrencyInfo } from 'wallet/src/features/fiatCurrency/hooks'
 import { useLocalizationContext } from 'wallet/src/features/language/LocalizationContext'

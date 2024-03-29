@@ -1,6 +1,5 @@
 import { BigNumber } from '@ethersproject/bignumber'
 import { t } from '@lingui/macro'
-import { ChainId, Currency, CurrencyAmount, TradeType } from 'test-dex-sdk-core'
 import UniswapXBolt from 'assets/svg/bolt.svg'
 import { nativeOnChain } from 'constants/tokens'
 import { TransactionStatus } from 'graphql/data/__generated__/types-and-hooks'
@@ -24,6 +23,7 @@ import {
   TransactionType,
   WrapTransactionInfo,
 } from 'state/transactions/types'
+import { ChainId, Currency, CurrencyAmount, TradeType } from 'test-dex-sdk-core'
 import { isAddress } from 'utilities/src/addresses'
 import { NumberType, useFormatter } from 'utils/formatNumbers'
 

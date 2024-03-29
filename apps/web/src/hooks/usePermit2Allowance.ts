@@ -1,5 +1,4 @@
 import { PERMIT2_ADDRESS } from '@uniswap/permit2-sdk'
-import { CurrencyAmount, Token } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { AVERAGE_L1_BLOCK_TIME } from 'constants/chainInfo'
 import { PermitSignature, usePermitAllowance, useUpdatePermitAllowance } from 'hooks/usePermitAllowance'
@@ -8,6 +7,7 @@ import useInterval from 'lib/hooks/useInterval'
 import { useCallback, useEffect, useMemo, useState } from 'react'
 import { TradeFillType } from 'state/routing/types'
 import { useHasPendingApproval, useHasPendingRevocation, useTransactionAdder } from 'state/transactions/hooks'
+import { CurrencyAmount, Token } from 'test-dex-sdk-core'
 
 enum ApprovalState {
   PENDING,

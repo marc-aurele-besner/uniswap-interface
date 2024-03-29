@@ -1,5 +1,5 @@
-import { Currency } from 'test-dex-sdk-core'
 import { useMemo } from 'react'
+import { Currency } from 'test-dex-sdk-core'
 
 import { useUnsupportedTokens } from './Tokens'
 

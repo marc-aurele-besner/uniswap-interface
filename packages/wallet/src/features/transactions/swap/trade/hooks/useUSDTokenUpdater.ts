@@ -1,6 +1,6 @@
-import { Currency } from 'test-dex-sdk-core'
 import React, { useEffect, useRef } from 'react'
 import { AnyAction } from 'redux'
+import { Currency } from 'test-dex-sdk-core'
 import { NumberType } from 'utilities/src/format/types'
 import { useLocalizationContext } from 'wallet/src/features/language/LocalizationContext'
 import {

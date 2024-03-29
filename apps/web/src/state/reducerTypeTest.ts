@@ -1,9 +1,9 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { TokenList } from '@uniswap/token-lists'
 import { RecentConnectionMeta } from 'connection/types'
 import { SupportedLocale } from 'constants/locales'
 import multicall from 'lib/state/multicall'
 import { CombinedState } from 'redux'
+import { ChainId } from 'test-dex-sdk-core'
 import { assert, Equals } from 'tsafe'
 
 import { ApplicationModal, ApplicationState, PopupList, PopupType } from './application/reducer'

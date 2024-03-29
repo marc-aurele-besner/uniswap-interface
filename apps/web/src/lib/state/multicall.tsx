@@ -1,10 +1,10 @@
 import { createMulticall, ListenerOptions } from '@uniswap/redux-multicall'
-import { ChainId } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { getBlocksPerMainnetEpochForChainId } from 'constants/chainInfo'
 import { useInterfaceMulticall, useMainnetInterfaceMulticall } from 'hooks/useContract'
 import useBlockNumber, { useMainnetBlockNumber } from 'lib/hooks/useBlockNumber'
 import { useMemo } from 'react'
+import { ChainId } from 'test-dex-sdk-core'
 
 const multicall = createMulticall()
 

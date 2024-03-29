@@ -1,4 +1,3 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import PrefetchBalancesWrapper, {
   useCachedPortfolioBalancesQuery,
@@ -18,6 +17,7 @@ import { useMemo } from 'react'
 import { Helmet } from 'react-helmet-async/lib/index'
 import { useLocation, useParams } from 'react-router-dom'
 import styled, { useTheme } from 'styled-components'
+import { ChainId } from 'test-dex-sdk-core'
 import { ThemeProvider } from 'theme'
 import { isAddress } from 'utilities/src/addresses'
 import { getNativeTokenDBAddress } from 'utils/nativeTokens'

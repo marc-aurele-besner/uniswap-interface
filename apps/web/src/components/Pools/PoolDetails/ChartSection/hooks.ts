@@ -1,4 +1,3 @@
-import { Token } from 'test-dex-sdk-core'
 import { PriceChartData } from 'components/Charts/PriceChart'
 import { SingleHistogramData } from 'components/Charts/VolumeChart/renderer'
 import { ChartType } from 'components/Charts/utils'
@@ -8,6 +7,7 @@ import {
   checkDataQuality,
   withUTCTimestamp,
 } from 'components/Tokens/TokenDetails/ChartSection/util'
+import { Token } from 'test-dex-sdk-core'
 
 import {
   Chain,

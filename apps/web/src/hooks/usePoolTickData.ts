@@ -1,4 +1,3 @@
-import { ChainId, Currency, Price, Token, V3_CORE_FACTORY_ADDRESSES } from 'test-dex-sdk-core'
 import { FeeAmount, Pool, TICK_SPACINGS, tickToPrice } from '@uniswap/v3-sdk'
 import { useWeb3React } from '@web3-react/core'
 import { TickData, Ticks } from 'graphql/thegraph/AllV3TicksQuery'
@@ -6,6 +5,7 @@ import { useAllV3TicksQuery } from 'graphql/thegraph/__generated__/types-and-hoo
 import JSBI from 'jsbi'
 import ms from 'ms'
 import { useEffect, useMemo, useState } from 'react'
+import { ChainId, Currency, Price, Token, V3_CORE_FACTORY_ADDRESSES } from 'test-dex-sdk-core'
 import computeSurroundingTicks from 'utils/computeSurroundingTicks'
 
 import { chainToApolloClient } from 'graphql/thegraph/apollo'

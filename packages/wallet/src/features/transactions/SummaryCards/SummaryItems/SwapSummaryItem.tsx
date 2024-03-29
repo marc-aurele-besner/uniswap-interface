@@ -1,20 +1,20 @@
-import { TradeType } from 'test-dex-sdk-core'
 import { createElement, useMemo } from 'react'
+import { TradeType } from 'test-dex-sdk-core'
 import { ONE_MINUTE_MS } from 'utilities/src/time/time'
 import { SplitLogo } from 'wallet/src/components/CurrencyLogo/SplitLogo'
 import { useLocalizationContext } from 'wallet/src/features/language/LocalizationContext'
 import { useCurrencyInfo } from 'wallet/src/features/tokens/useCurrencyInfo'
-import { getAmountsFromTrade } from 'wallet/src/features/transactions/getAmountsFromTrade'
 import {
   SummaryItemProps,
   TransactionSummaryLayoutProps,
 } from 'wallet/src/features/transactions/SummaryCards/types'
 import { TXN_HISTORY_ICON_SIZE } from 'wallet/src/features/transactions/SummaryCards/utils'
+import { getAmountsFromTrade } from 'wallet/src/features/transactions/getAmountsFromTrade'
 import {
   ExactInputSwapTransactionInfo,
   ExactOutputSwapTransactionInfo,
-  isConfirmedSwapTypeInfo,
   TransactionDetails,
+  isConfirmedSwapTypeInfo,
 } from 'wallet/src/features/transactions/types'
 import { getFormattedCurrencyAmount, getSymbolDisplayText } from 'wallet/src/utils/currency'
 

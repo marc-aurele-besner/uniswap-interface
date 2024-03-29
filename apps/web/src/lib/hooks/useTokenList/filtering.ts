@@ -1,5 +1,5 @@
-import { NativeCurrency, Token } from 'test-dex-sdk-core'
 import { TokenInfo } from '@uniswap/token-lists'
+import { NativeCurrency, Token } from 'test-dex-sdk-core'
 import { isAddress } from 'utilities/src/addresses'
 
 const alwaysTrue = () => true

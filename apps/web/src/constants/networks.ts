@@ -1,5 +1,5 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { SupportedInterfaceChain } from 'constants/chains'
+import { ChainId } from 'test-dex-sdk-core'
 
 const INFURA_KEY = process.env.REACT_APP_INFURA_KEY
 if (typeof INFURA_KEY === 'undefined') {

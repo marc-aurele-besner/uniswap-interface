@@ -23,7 +23,7 @@ export function initFirebaseAppCheck(): void {
       provider: rnfbProvider,
       isTokenAutoRefreshEnabled: true,
     })
-    .catch((error) => {
+    .catch((error: Error) => {
       logger.error(error, {
         tags: { file: 'firebaseDataSaga', function: 'initFirebaseAppCheck' },
       })
@@ -33,6 +33,7 @@ export function initFirebaseAppCheck(): void {
 export async function getFirebaseAppCheckToken(): Promise<string | null> {
   try {
     const { token } = await appCheck().getToken(true)
+    // eslint-disable-next-line @typescript-eslint/no-unsafe-return
     return token
   } catch (error) {
     logger.error(error, { tags: { file: 'firebase/utils', function: 'getFirebaseAppCheckToken' } })

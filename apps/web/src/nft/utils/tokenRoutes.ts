@@ -1,9 +1,9 @@
 import { IRoute, Protocol } from '@uniswap/router-sdk'
-import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import { Pair } from '@uniswap/v2-sdk'
 import { Pool } from '@uniswap/v3-sdk'
 import { TokenAmountInput, TokenTradeRouteInput, TradePoolInput } from 'graphql/data/__generated__/types-and-hooks'
 import { ClassicTrade } from 'state/routing/types'
+import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 
 interface SwapAmounts {
   inputAmount: CurrencyAmount<Currency>

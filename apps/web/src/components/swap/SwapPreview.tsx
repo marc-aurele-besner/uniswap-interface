@@ -1,10 +1,10 @@
 import { Trans } from '@lingui/macro'
-import { Currency, Percent, TradeType } from 'test-dex-sdk-core'
 import Column, { AutoColumn } from 'components/Column'
 import { useUSDPrice } from 'hooks/useUSDPrice'
 import { InterfaceTrade } from 'state/routing/types'
 import { isPreviewTrade } from 'state/routing/utils'
 import styled from 'styled-components'
+import { Currency, Percent, TradeType } from 'test-dex-sdk-core'
 import { ThemedText } from 'theme/components'
 
 import { Field } from './constants'

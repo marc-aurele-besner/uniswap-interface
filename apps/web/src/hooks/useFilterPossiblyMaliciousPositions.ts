@@ -1,6 +1,6 @@
-import { Token } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { useMemo } from 'react'
+import { Token } from 'test-dex-sdk-core'
 import { PositionDetails } from 'types/position'
 import { hasURL } from 'utils/urlChecks'
 

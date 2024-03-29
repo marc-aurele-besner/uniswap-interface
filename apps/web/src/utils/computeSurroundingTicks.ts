@@ -1,7 +1,7 @@
-import { Token } from 'test-dex-sdk-core'
 import { tickToPrice } from '@uniswap/v3-sdk'
 import { TickProcessed } from 'hooks/usePoolTickData'
 import JSBI from 'jsbi'
+import { Token } from 'test-dex-sdk-core'
 
 import { Ticks } from '../graphql/thegraph/AllV3TicksQuery'
 

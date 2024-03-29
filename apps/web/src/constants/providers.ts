@@ -1,5 +1,5 @@
-import { ChainId } from 'test-dex-sdk-core'
 import AppJsonRpcProvider from 'rpc/AppJsonRpcProvider'
+import { ChainId } from 'test-dex-sdk-core'
 
 import ConfiguredJsonRpcProvider from 'rpc/ConfiguredJsonRpcProvider'
 import { CHAIN_IDS_TO_NAMES, SupportedInterfaceChain } from './chains'

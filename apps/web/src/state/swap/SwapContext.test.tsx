@@ -1,6 +1,6 @@
-import { ChainId, Percent } from 'test-dex-sdk-core'
 import { Field, SwapTab } from 'components/swap/constants'
 import { nativeOnChain } from 'constants/tokens'
+import { ChainId, Percent } from 'test-dex-sdk-core'
 import { render } from 'test-utils/render'
 
 import { SwapInfo } from './hooks'

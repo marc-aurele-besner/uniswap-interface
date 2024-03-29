@@ -1,5 +1,5 @@
-import { ChainId, Currency, Token, TradeType } from 'test-dex-sdk-core'
 import { nativeOnChain } from 'constants/tokens'
+import { ChainId, Currency, Token, TradeType } from 'test-dex-sdk-core'
 
 import { GetQuoteArgs, PoolType, RouterPreference, TokenInRoute } from './types'
 import { computeRoutes } from './utils'

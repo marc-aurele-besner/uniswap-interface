@@ -1,4 +1,3 @@
-import { ChainId, WETH9 } from 'test-dex-sdk-core'
 import {
   MATIC_MAINNET,
   NATIVE_CHAIN_ID,
@@ -10,6 +9,7 @@ import {
   WBTC,
   WETH_POLYGON,
 } from 'constants/tokens'
+import { ChainId, WETH9 } from 'test-dex-sdk-core'
 
 import { getDefaultCurrencyCode, parsePathParts } from './utils'
 

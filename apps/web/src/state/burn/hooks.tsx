@@ -1,5 +1,4 @@
 import { Trans } from '@lingui/macro'
-import { Currency, CurrencyAmount, Percent, Token } from 'test-dex-sdk-core'
 import { Pair } from '@uniswap/v2-sdk'
 import { useWeb3React } from '@web3-react/core'
 import JSBI from 'jsbi'
@@ -7,6 +6,7 @@ import tryParseCurrencyAmount from 'lib/utils/tryParseCurrencyAmount'
 import { ReactNode, useCallback } from 'react'
 import { useAppDispatch, useAppSelector } from 'state/hooks'
 import { AppState } from 'state/reducer'
+import { Currency, CurrencyAmount, Percent, Token } from 'test-dex-sdk-core'
 
 import { useTotalSupply } from '../../hooks/useTotalSupply'
 import { useV2Pair } from '../../hooks/useV2Pairs'

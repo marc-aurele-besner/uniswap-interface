@@ -1,5 +1,5 @@
-import { Price, WETH9 } from 'test-dex-sdk-core'
 import { USDC_MAINNET } from 'constants/tokens'
+import { Price, WETH9 } from 'test-dex-sdk-core'
 import { fireEvent, render, screen } from 'test-utils/render'
 
 import TradePrice from './TradePrice'

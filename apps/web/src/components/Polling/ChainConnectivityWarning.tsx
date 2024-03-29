@@ -1,9 +1,9 @@
 import { Trans } from '@lingui/macro'
-import { ChainId } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { getChainInfoOrDefault, L2ChainInfo } from 'constants/chainInfo'
 import { AlertTriangle } from 'react-feather'
 import styled from 'styled-components'
+import { ChainId } from 'test-dex-sdk-core'
 import { MEDIA_WIDTHS } from 'theme'
 import { ExternalLink } from 'theme/components'
 

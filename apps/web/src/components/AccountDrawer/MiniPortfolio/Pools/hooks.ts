@@ -1,9 +1,3 @@
-import {
-  ChainId,
-  MULTICALL_ADDRESSES,
-  Token,
-  NONFUNGIBLE_POSITION_MANAGER_ADDRESSES as V3NFT_ADDRESSES,
-} from 'test-dex-sdk-core'
 import type { AddressMap } from '@uniswap/smart-order-router'
 import NFTPositionManagerJSON from '@uniswap/v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json'
 import MulticallJSON from '@uniswap/v3-periphery/artifacts/contracts/lens/UniswapInterfaceMulticall.sol/UniswapInterfaceMulticall.json'
@@ -16,6 +10,12 @@ import { ContractInput, useUniswapPricesQuery } from 'graphql/data/__generated__
 import { toContractInput } from 'graphql/data/util'
 import useStablecoinPrice from 'hooks/useStablecoinPrice'
 import { useMemo } from 'react'
+import {
+  ChainId,
+  MULTICALL_ADDRESSES,
+  Token,
+  NONFUNGIBLE_POSITION_MANAGER_ADDRESSES as V3NFT_ADDRESSES,
+} from 'test-dex-sdk-core'
 import { NonfungiblePositionManager, UniswapInterfaceMulticall } from 'uniswap/src/abis/types/v3'
 import { getContract } from 'utilities/src/contracts/getContract'
 import { CurrencyKey, currencyKey, currencyKeyFromGraphQL } from 'utils/currencyKey'

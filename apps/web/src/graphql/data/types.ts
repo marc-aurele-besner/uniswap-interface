@@ -1,6 +1,6 @@
-import { Currency } from 'test-dex-sdk-core'
 import { Token as GqlToken, SafetyLevel } from 'graphql/data/__generated__/types-and-hooks'
 import { gqlToCurrency } from 'graphql/data/util'
+import { Currency } from 'test-dex-sdk-core'
 import { currencyId } from 'utils/currencyId'
 
 // TODO: use shared versions of these types/utils when they are moved to the packages/uniswap package

@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount, NativeCurrency as NativeCurrencyClass } from 'test-dex-sdk-core'
 import { useMemo } from 'react'
+import { Currency, CurrencyAmount, NativeCurrency as NativeCurrencyClass } from 'test-dex-sdk-core'
 import ERC20_ABI from 'uniswap/src/abis/erc20.json'
 import { useRestQuery } from 'uniswap/src/data/rest'
 import { ChainId } from 'wallet/src/constants/chains'

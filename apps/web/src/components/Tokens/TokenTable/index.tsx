@@ -1,6 +1,5 @@
 import { Trans } from '@lingui/macro'
 import { createColumnHelper } from '@tanstack/react-table'
-import { ChainId } from 'test-dex-sdk-core'
 import { ParentSize } from '@visx/responsive'
 import QueryTokenLogo from 'components/Logo/QueryTokenLogo'
 import Row from 'components/Row'
@@ -17,6 +16,7 @@ import {
 } from 'graphql/data/util'
 import { ReactElement, ReactNode, useMemo } from 'react'
 import styled from 'styled-components'
+import { ChainId } from 'test-dex-sdk-core'
 import { EllipsisStyle, ThemedText } from 'theme/components'
 import { NumberType, useFormatter } from 'utils/formatNumbers'
 

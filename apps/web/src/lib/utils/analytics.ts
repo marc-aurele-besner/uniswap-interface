@@ -1,7 +1,7 @@
-import { Currency, CurrencyAmount, Percent, Price, Token } from 'test-dex-sdk-core'
 import { NATIVE_CHAIN_ID } from 'constants/tokens'
 import { InterfaceTrade, QuoteMethod, SubmittableTrade } from 'state/routing/types'
 import { isClassicTrade, isSubmittableTrade, isUniswapXTrade } from 'state/routing/utils'
+import { Currency, CurrencyAmount, Percent, Price, Token } from 'test-dex-sdk-core'
 import { computeRealizedPriceImpact } from 'utils/prices'
 
 export const getDurationUntilTimestampSeconds = (futureTimestampInSecondsSinceEpoch?: number): number | undefined => {

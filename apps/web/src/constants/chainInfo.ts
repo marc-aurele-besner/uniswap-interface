@@ -1,5 +1,5 @@
-import { ChainId } from 'test-dex-sdk-core'
 import ms from 'ms'
+import { ChainId } from 'test-dex-sdk-core'
 import { darkTheme } from 'theme/colors'
 
 import { SupportedL1ChainId, SupportedL2ChainId } from './chains'

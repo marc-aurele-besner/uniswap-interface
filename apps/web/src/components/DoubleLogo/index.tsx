@@ -1,5 +1,5 @@
-import { Currency } from 'test-dex-sdk-core'
 import styled from 'styled-components'
+import { Currency } from 'test-dex-sdk-core'
 
 import CurrencyLogo from '../Logo/CurrencyLogo'
 

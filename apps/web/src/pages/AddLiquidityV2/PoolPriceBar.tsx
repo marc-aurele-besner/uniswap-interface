@@ -1,7 +1,7 @@
 import { Trans } from '@lingui/macro'
-import { Currency, Percent, Price } from 'test-dex-sdk-core'
 import { Text } from 'rebass'
 import { useTheme } from 'styled-components'
+import { Currency, Percent, Price } from 'test-dex-sdk-core'
 import { ThemedText } from 'theme/components'
 
 import { AutoColumn } from '../../components/Column'

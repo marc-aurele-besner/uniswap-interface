@@ -1,6 +1,6 @@
 import { SwapEventName } from '@uniswap/analytics-events'
-import { Currency, TradeType } from 'test-dex-sdk-core'
 import { useEffect } from 'react'
+import { Currency, TradeType } from 'test-dex-sdk-core'
 import { NumberType } from 'utilities/src/format/types'
 import {
   LocalizationContextState,

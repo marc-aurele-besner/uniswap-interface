@@ -1,5 +1,5 @@
-import { TradeType } from 'test-dex-sdk-core'
 import { useMemo } from 'react'
+import { TradeType } from 'test-dex-sdk-core'
 import { ChainId } from 'wallet/src/constants/chains'
 import { FEATURE_FLAGS } from 'wallet/src/features/experiments/constants'
 import { useFeatureFlag } from 'wallet/src/features/experiments/hooks'

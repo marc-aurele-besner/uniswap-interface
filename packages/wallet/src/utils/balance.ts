@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import JSBI from 'jsbi'
+import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import { ChainId } from 'wallet/src/constants/chains'
 import { ValueType, getCurrencyAmount } from 'wallet/src/utils/getCurrencyAmount'
 

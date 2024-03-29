@@ -8,6 +8,13 @@ import { toUtf8String, Utf8ErrorFuncs, Utf8ErrorReason } from '@ethersproject/st
 import { t } from '@lingui/macro'
 import GovernorAlphaJSON from '@uniswap/governance/build/GovernorAlpha.json'
 import UniJSON from '@uniswap/governance/build/Uni.json'
+import { useWeb3React } from '@web3-react/core'
+import { LATEST_GOVERNOR_INDEX } from 'constants/governance'
+import { POLYGON_PROPOSAL_TITLE } from 'constants/proposals/polygon_proposal_title'
+import { UNISWAP_GRANTS_PROPOSAL_DESCRIPTION } from 'constants/proposals/uniswap_grants_proposal_description'
+import { useContract } from 'hooks/useContract'
+import { useSingleCallResult, useSingleContractMultipleData } from 'lib/hooks/multicall'
+import { useCallback, useMemo } from 'react'
 import {
   ChainId,
   CurrencyAmount,
@@ -16,13 +23,6 @@ import {
   GOVERNANCE_BRAVO_ADDRESSES,
   Token,
 } from 'test-dex-sdk-core'
-import { useWeb3React } from '@web3-react/core'
-import { LATEST_GOVERNOR_INDEX } from 'constants/governance'
-import { POLYGON_PROPOSAL_TITLE } from 'constants/proposals/polygon_proposal_title'
-import { UNISWAP_GRANTS_PROPOSAL_DESCRIPTION } from 'constants/proposals/uniswap_grants_proposal_description'
-import { useContract } from 'hooks/useContract'
-import { useSingleCallResult, useSingleContractMultipleData } from 'lib/hooks/multicall'
-import { useCallback, useMemo } from 'react'
 import GOVERNOR_BRAVO_ABI from 'uniswap/src/abis/governor-bravo.json'
 import { calculateGasMargin } from 'utils/calculateGasMargin'
 

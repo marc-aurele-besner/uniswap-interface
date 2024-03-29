@@ -1,5 +1,5 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { DAI, DAI_ARBITRUM_ONE, USDC_ARBITRUM, USDC_MAINNET } from 'constants/tokens'
+import { ChainId } from 'test-dex-sdk-core'
 import { render } from 'test-utils/render'
 
 import { PortfolioLogo } from './PortfolioLogo'

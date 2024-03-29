@@ -1,10 +1,10 @@
 import { Trans } from '@lingui/macro'
-import { Token } from 'test-dex-sdk-core'
 import Badge, { BadgeVariant } from 'components/Badge'
 import { transparentize } from 'polished'
 import { Link } from 'react-router-dom'
 import { Text } from 'rebass'
 import styled from 'styled-components'
+import { Token } from 'test-dex-sdk-core'
 
 import { FixedHeightRow } from '.'
 import { useColor } from '../../hooks/useColor'

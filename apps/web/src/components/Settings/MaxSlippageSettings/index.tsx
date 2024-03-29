@@ -1,5 +1,4 @@
 import { Trans } from '@lingui/macro'
-import { Percent } from 'test-dex-sdk-core'
 import Expand from 'components/Expand'
 import QuestionHelper from 'components/QuestionHelper'
 import Row, { RowBetween } from 'components/Row'
@@ -7,6 +6,7 @@ import { useState } from 'react'
 import { useUserSlippageTolerance } from 'state/user/hooks'
 import { SlippageTolerance } from 'state/user/types'
 import styled from 'styled-components'
+import { Percent } from 'test-dex-sdk-core'
 import { CautionTriangle, ThemedText } from 'theme/components'
 import { useFormatter } from 'utils/formatNumbers'
 

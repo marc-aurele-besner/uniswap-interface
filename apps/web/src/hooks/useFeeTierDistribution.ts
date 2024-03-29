@@ -1,8 +1,8 @@
-import { Currency, Token } from 'test-dex-sdk-core'
 import { FeeAmount } from '@uniswap/v3-sdk'
 import useBlockNumber from 'lib/hooks/useBlockNumber'
 import ms from 'ms'
 import { useMemo } from 'react'
+import { Currency, Token } from 'test-dex-sdk-core'
 
 import useFeeTierDistributionQuery from '../graphql/thegraph/FeeTierDistributionQuery'
 import { PoolState, usePool } from './usePools'

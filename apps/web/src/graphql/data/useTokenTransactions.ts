@@ -1,4 +1,3 @@
-import { ChainId } from 'test-dex-sdk-core'
 import {
   Chain,
   PoolTransactionType,
@@ -7,6 +6,7 @@ import {
 } from 'graphql/data/__generated__/types-and-hooks'
 import { chainIdToBackendName } from 'graphql/data/util'
 import { useCallback, useMemo, useRef } from 'react'
+import { ChainId } from 'test-dex-sdk-core'
 
 export enum TokenTransactionType {
   BUY = 'Buy',

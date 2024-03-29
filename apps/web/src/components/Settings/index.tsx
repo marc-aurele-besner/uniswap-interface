@@ -1,5 +1,4 @@
 import { Trans } from '@lingui/macro'
-import { Percent } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { Scrim } from 'components/AccountDrawer'
 import AnimatedDropdown from 'components/AnimatedDropdown'
@@ -17,6 +16,7 @@ import { ApplicationModal } from 'state/application/reducer'
 import { InterfaceTrade } from 'state/routing/types'
 import { isUniswapXTrade } from 'state/routing/utils'
 import styled from 'styled-components'
+import { Percent } from 'test-dex-sdk-core'
 import { Divider, ThemedText } from 'theme/components'
 import { Z_INDEX } from 'theme/zIndex'
 

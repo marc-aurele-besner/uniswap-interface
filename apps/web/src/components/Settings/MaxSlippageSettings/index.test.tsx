@@ -1,7 +1,7 @@
-import { Percent } from 'test-dex-sdk-core'
 import store from 'state'
 import { updateUserSlippageTolerance } from 'state/user/reducer'
 import { SlippageTolerance } from 'state/user/types'
+import { Percent } from 'test-dex-sdk-core'
 import { fireEvent, render, screen } from 'test-utils/render'
 
 import MaxSlippageSettings from '.'

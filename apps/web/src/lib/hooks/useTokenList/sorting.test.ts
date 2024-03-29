@@ -1,6 +1,6 @@
-import { ChainId, Token as InterfaceToken } from 'test-dex-sdk-core'
 import { DAI, USDC_MAINNET, USDT, WBTC, nativeOnChain } from 'constants/tokens'
 import { Chain, Currency, Token, TokenBalance, TokenStandard } from 'graphql/data/__generated__/types-and-hooks'
+import { ChainId, Token as InterfaceToken } from 'test-dex-sdk-core'
 
 import { getSortedPortfolioTokens, tokenQuerySortComparator } from './sorting'
 

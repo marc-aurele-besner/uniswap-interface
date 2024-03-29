@@ -1,7 +1,7 @@
 import { Trans } from '@lingui/macro'
-import { Fraction, TradeType } from 'test-dex-sdk-core'
 import { BigNumber } from 'ethers/lib/ethers'
 import JSBI from 'jsbi'
+import { Fraction, TradeType } from 'test-dex-sdk-core'
 
 import { nativeOnChain } from '../../constants/tokens'
 import { useCurrency, useToken } from '../../hooks/Tokens'

@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import { Contract, providers } from 'ethers'
+import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import { call } from 'typed-redux-saga'
 import { Weth } from 'uniswap/src/abis/types'
 import WETH_ABI from 'uniswap/src/abis/weth.json'

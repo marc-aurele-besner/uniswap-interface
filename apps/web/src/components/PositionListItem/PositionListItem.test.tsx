@@ -1,9 +1,9 @@
 import { BigNumber } from '@ethersproject/bignumber'
-import { ChainId, Token, WETH9 } from 'test-dex-sdk-core'
 import { FeeAmount, Pool } from '@uniswap/v3-sdk'
 import { USDC_MAINNET } from 'constants/tokens'
 import { useToken } from 'hooks/Tokens'
 import { PoolState, usePool } from 'hooks/usePools'
+import { ChainId, Token, WETH9 } from 'test-dex-sdk-core'
 import { mocked } from 'test-utils/mocked'
 import { render } from 'test-utils/render'
 

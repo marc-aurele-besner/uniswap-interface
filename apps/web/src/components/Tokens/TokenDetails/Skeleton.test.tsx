@@ -1,5 +1,5 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { USDC_MAINNET } from 'constants/tokens'
+import { ChainId } from 'test-dex-sdk-core'
 import { render } from 'test-utils/render'
 
 import { getLoadingTitle, TokenDetailsPageSkeleton } from './Skeleton'

@@ -1,4 +1,3 @@
-import { Currency, CurrencyAmount, Price } from 'test-dex-sdk-core'
 import { InputPanel } from 'components/CurrencyInputPanel/SwapCurrencyInputPanel'
 import CurrencyLogo from 'components/Logo/CurrencyLogo'
 import { StyledNumericalInput } from 'components/NumericalInput'
@@ -9,6 +8,7 @@ import { useCallback, useMemo, useState } from 'react'
 import { useLimitContext, useLimitPrice } from 'state/limit/LimitContext'
 import { CurrencyState, useSwapAndLimitContext } from 'state/swap/SwapContext'
 import styled from 'styled-components'
+import { Currency, CurrencyAmount, Price } from 'test-dex-sdk-core'
 import { ClickableStyle, ThemedText } from 'theme/components'
 import { NumberType, useFormatter } from 'utils/formatNumbers'
 

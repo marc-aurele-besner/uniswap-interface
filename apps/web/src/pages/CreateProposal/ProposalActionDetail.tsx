@@ -1,8 +1,8 @@
 import { Trans } from '@lingui/macro'
-import { Currency } from 'test-dex-sdk-core'
 import AddressInputPanel from 'components/AddressInputPanel'
 import CurrencyInputPanel from 'components/CurrencyInputPanel'
 import styled from 'styled-components'
+import { Currency } from 'test-dex-sdk-core'
 
 import { CurrencySearchFilters } from 'components/SearchModal/CurrencySearch'
 import { ProposalAction } from './ProposalActionSelector'

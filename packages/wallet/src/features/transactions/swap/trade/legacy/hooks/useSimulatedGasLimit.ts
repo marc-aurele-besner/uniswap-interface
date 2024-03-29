@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount, TradeType } from 'test-dex-sdk-core'
 import { useMemo } from 'react'
+import { Currency, CurrencyAmount, TradeType } from 'test-dex-sdk-core'
 import { useDebounceWithStatus } from 'utilities/src/time/timing'
 import { SimulatedGasEstimationInfo } from 'wallet/src/features/gas/types'
 import { useRouterQuote } from 'wallet/src/features/transactions/swap/trade/legacy/hooks/useRouterQuote'

@@ -1,6 +1,6 @@
 import { ApolloError, NetworkStatus } from '@apollo/client'
-import { TradeType } from 'test-dex-sdk-core'
 import { useMemo } from 'react'
+import { TradeType } from 'test-dex-sdk-core'
 import { uniswapUrls } from 'uniswap/src/constants/urls'
 import { useRestQuery } from 'uniswap/src/data/rest'
 import { logger } from 'utilities/src/logger/logger'

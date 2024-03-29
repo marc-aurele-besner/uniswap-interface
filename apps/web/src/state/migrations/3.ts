@@ -1,7 +1,7 @@
-import { ChainId, Token } from 'test-dex-sdk-core'
 import { PersistState } from 'redux-persist'
 import { serializeToken } from 'state/user/hooks'
 import { UserState } from 'state/user/reducer'
+import { ChainId, Token } from 'test-dex-sdk-core'
 
 export type PersistAppStateV3 = {
   _persist: PersistState

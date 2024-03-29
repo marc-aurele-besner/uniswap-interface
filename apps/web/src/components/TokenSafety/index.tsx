@@ -1,5 +1,4 @@
 import { Trans } from '@lingui/macro'
-import { Token } from 'test-dex-sdk-core'
 import { ButtonPrimary } from 'components/Button'
 import { AutoColumn } from 'components/Column'
 import CurrencyLogo from 'components/Logo/CurrencyLogo'
@@ -17,6 +16,7 @@ import { ExternalLink as LinkIconFeather } from 'react-feather'
 import { Text } from 'rebass'
 import { useAddUserToken } from 'state/user/hooks'
 import styled from 'styled-components'
+import { Token } from 'test-dex-sdk-core'
 import { ButtonText, CopyLinkIcon, ExternalLink } from 'theme/components'
 import { ExplorerDataType, getExplorerLink } from 'utils/getExplorerLink'
 

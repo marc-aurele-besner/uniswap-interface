@@ -1,11 +1,11 @@
 import { OperationVariables, QueryResult } from '@apollo/client'
 import * as Sentry from '@sentry/react'
-import { ChainId, Currency, Token } from 'test-dex-sdk-core'
 import { AVERAGE_L1_BLOCK_TIME } from 'constants/chainInfo'
 import { NATIVE_CHAIN_ID, WRAPPED_NATIVE_CURRENCY, nativeOnChain } from 'constants/tokens'
 import ms from 'ms'
 import { useEffect } from 'react'
 import { DefaultTheme } from 'styled-components'
+import { ChainId, Currency, Token } from 'test-dex-sdk-core'
 import { ThemeColors } from 'theme/colors'
 import { getNativeTokenDBAddress } from 'utils/nativeTokens'
 

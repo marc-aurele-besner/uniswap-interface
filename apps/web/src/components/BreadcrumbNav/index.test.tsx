@@ -1,7 +1,7 @@
 import userEvent from '@testing-library/user-event'
-import { ChainId } from 'test-dex-sdk-core'
 import { NATIVE_CHAIN_ID, nativeOnChain } from 'constants/tokens'
 import { TokenFromList } from 'state/lists/tokenFromList'
+import { ChainId } from 'test-dex-sdk-core'
 import { act, render, screen } from 'test-utils/render'
 
 import { CurrentPageBreadcrumb } from '.'

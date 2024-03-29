@@ -1,4 +1,3 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { Connector } from '@web3-react/types'
 import {
   deprecatedNetworkConnection,
@@ -12,6 +11,7 @@ import { PUBLIC_RPC_URLS } from 'constants/networks'
 import { useCallback } from 'react'
 import { useAppDispatch } from 'state/hooks'
 import { endSwitchingChain, startSwitchingChain } from 'state/wallets/reducer'
+import { ChainId } from 'test-dex-sdk-core'
 import { trace } from 'tracing/trace'
 
 export function useSwitchChain() {

@@ -1,6 +1,6 @@
 import { parseUnits } from '@ethersproject/units'
-import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import JSBI from 'jsbi'
+import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 
 function truncateValue(value: string, decimals: number): string {
   const parts = value.split(/[.,]/)

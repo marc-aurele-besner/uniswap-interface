@@ -1,5 +1,4 @@
 import { Trans } from '@lingui/macro'
-import { Currency, Price, Token } from 'test-dex-sdk-core'
 import { FeeAmount } from '@uniswap/v3-sdk'
 import { AutoColumn, ColumnCenter } from 'components/Column'
 import Loader from 'components/Icons/LoadingSpinner'
@@ -10,6 +9,7 @@ import { BarChart2, CloudOff, Inbox } from 'react-feather'
 import { batch } from 'react-redux'
 import { Bound } from 'state/mint/v3/actions'
 import styled, { useTheme } from 'styled-components'
+import { Currency, Price, Token } from 'test-dex-sdk-core'
 import { ThemedText } from 'theme/components'
 import { useFormatter } from 'utils/formatNumbers'
 

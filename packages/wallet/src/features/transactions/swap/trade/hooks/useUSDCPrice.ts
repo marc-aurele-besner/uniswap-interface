@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount, Price, Token, TradeType } from 'test-dex-sdk-core'
 import { useMemo } from 'react'
+import { Currency, CurrencyAmount, Price, Token, TradeType } from 'test-dex-sdk-core'
 import { ChainId } from 'wallet/src/constants/chains'
 import { PollingInterval } from 'wallet/src/constants/misc'
 import {

@@ -1,4 +1,3 @@
-import { Currency, CurrencyAmount, Price, TradeType } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { Field } from 'components/swap/constants'
 import { isStablecoin, nativeOnChain } from 'constants/tokens'
@@ -12,6 +11,7 @@ import { LimitOrderTrade, RouterPreference, SubmittableTrade, SwapFeeInfo, WrapI
 import { useRoutingAPITrade } from 'state/routing/useRoutingAPITrade'
 import { getUSDCostPerGas, isClassicTrade } from 'state/routing/utils'
 import { useSwapAndLimitContext } from 'state/swap/SwapContext'
+import { Currency, CurrencyAmount, Price, TradeType } from 'test-dex-sdk-core'
 
 import { useLimitsFeesEnabled } from 'featureFlags/flags/limitsFees'
 import { Expiry, LimitState } from './LimitContext'

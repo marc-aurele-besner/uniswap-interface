@@ -1,5 +1,5 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { UNI } from 'constants/tokens'
+import { ChainId } from 'test-dex-sdk-core'
 
 import { getTestSelector } from '../utils'
 

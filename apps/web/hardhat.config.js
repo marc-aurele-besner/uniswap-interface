@@ -1,5 +1,5 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { UNIVERSAL_ROUTER_CREATION_BLOCK } from '@uniswap/universal-router-sdk'
+import { ChainId } from 'test-dex-sdk-core'
 
 /* eslint-env node */
 require('dotenv').config()

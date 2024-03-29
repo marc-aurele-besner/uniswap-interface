@@ -1,4 +1,3 @@
-import { ChainId, WETH9 } from 'test-dex-sdk-core'
 import {
   CancelLimitsDialog,
   CancellationState,
@@ -6,6 +5,7 @@ import {
 import { DAI } from 'constants/tokens'
 import { UniswapXOrderStatus } from 'lib/hooks/orders/types'
 import { SignatureType, UniswapXOrderDetails } from 'state/signatures/types'
+import { ChainId, WETH9 } from 'test-dex-sdk-core'
 import { render, screen } from 'test-utils/render'
 
 const mockOrderDetails: UniswapXOrderDetails = {

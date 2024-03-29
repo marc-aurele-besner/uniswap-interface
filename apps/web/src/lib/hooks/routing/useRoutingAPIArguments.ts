@@ -1,10 +1,10 @@
 import { SkipToken, skipToken } from '@reduxjs/toolkit/query/react'
-import { Currency, CurrencyAmount, TradeType } from 'test-dex-sdk-core'
 import { useGatewayDNSUpdateEnabled } from 'featureFlags/flags/gatewayDNSUpdate'
 import { useUniswapXSyntheticQuoteEnabled } from 'featureFlags/flags/uniswapXUseSyntheticQuote'
 import { useMemo } from 'react'
 import { GetQuoteArgs, INTERNAL_ROUTER_PREFERENCE_PRICE, RouterPreference } from 'state/routing/types'
 import { currencyAddressForSwapQuote } from 'state/routing/utils'
+import { Currency, CurrencyAmount, TradeType } from 'test-dex-sdk-core'
 
 /**
  * Returns query arguments for the Routing API query or undefined if the

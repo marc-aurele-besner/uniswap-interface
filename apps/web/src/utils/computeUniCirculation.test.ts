@@ -1,6 +1,6 @@
 import { BigNumber } from '@ethersproject/bignumber'
-import { CurrencyAmount, Token } from 'test-dex-sdk-core'
 import JSBI from 'jsbi'
+import { CurrencyAmount, Token } from 'test-dex-sdk-core'
 
 import { ZERO_ADDRESS } from '../constants/misc'
 import { computeUniCirculation } from './computeUniCirculation'

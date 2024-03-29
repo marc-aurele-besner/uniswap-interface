@@ -1,4 +1,3 @@
-import { Currency } from 'test-dex-sdk-core'
 import {
   createContext,
   Dispatch,
@@ -11,6 +10,7 @@ import {
 } from 'react'
 import { RecipientData, SendInfo, useDerivedSendInfo } from 'state/send/hooks'
 import { useSwapAndLimitContext } from 'state/swap/SwapContext'
+import { Currency } from 'test-dex-sdk-core'
 
 export type SendState =
   | {

@@ -1,5 +1,4 @@
 import { Trans } from '@lingui/macro'
-import { CurrencyAmount, Percent, Token } from 'test-dex-sdk-core'
 import { Pair } from '@uniswap/v2-sdk'
 import { useWeb3React } from '@web3-react/core'
 import JSBI from 'jsbi'
@@ -9,6 +8,7 @@ import { ChevronDown, ChevronUp } from 'react-feather'
 import { Link } from 'react-router-dom'
 import { Text } from 'rebass'
 import styled from 'styled-components'
+import { CurrencyAmount, Percent, Token } from 'test-dex-sdk-core'
 
 import { FixedHeightRow } from '.'
 import { BIG_INT_ZERO } from '../../constants/misc'

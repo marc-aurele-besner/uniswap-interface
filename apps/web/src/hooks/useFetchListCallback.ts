@@ -1,5 +1,4 @@
 import { nanoid } from '@reduxjs/toolkit'
-import { ChainId } from 'test-dex-sdk-core'
 import { TokenList } from '@uniswap/token-lists'
 import { DEPRECATED_RPC_PROVIDERS, RPC_PROVIDERS } from 'constants/providers'
 import { useFallbackProviderEnabled } from 'featureFlags/flags/fallbackProvider'
@@ -7,6 +6,7 @@ import getTokenList from 'lib/hooks/useTokenList/fetchTokenList'
 import resolveENSContentHash from 'lib/utils/resolveENSContentHash'
 import { useCallback } from 'react'
 import { useAppDispatch } from 'state/hooks'
+import { ChainId } from 'test-dex-sdk-core'
 
 import { fetchTokenList } from '../state/lists/actions'
 

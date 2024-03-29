@@ -1,5 +1,5 @@
-import { CurrencyAmount } from 'test-dex-sdk-core'
 import { testSaga } from 'redux-saga-test-plan'
+import { CurrencyAmount } from 'test-dex-sdk-core'
 import { ChainId } from 'wallet/src/constants/chains'
 import { NativeCurrency } from 'wallet/src/features/tokens/NativeCurrency'
 import { sendTransaction } from 'wallet/src/features/transactions/sendTransactionSaga'

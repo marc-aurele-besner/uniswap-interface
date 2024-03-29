@@ -1,5 +1,5 @@
-import { CurrencyAmount, TradeType } from 'test-dex-sdk-core'
 import { DAI, USDC_MAINNET } from 'constants/tokens'
+import { CurrencyAmount, TradeType } from 'test-dex-sdk-core'
 import { LIMIT_ORDER_TRADE } from 'test-utils/constants'
 
 describe('LimitOrderTrade', () => {

@@ -1,7 +1,7 @@
 import { useNetInfo } from '@react-native-community/netinfo'
-import { Percent } from 'test-dex-sdk-core'
 import { TFunction } from 'i18next'
 import _ from 'lodash'
+import { Percent } from 'test-dex-sdk-core'
 import { isWeb } from 'ui/src'
 import { formatPriceImpact } from 'utilities/src/format/formatPriceImpact'
 import { useMemoCompare } from 'utilities/src/react/hooks'

@@ -1,6 +1,6 @@
 import { NetworkStatus } from '@apollo/client'
-import { TradeType } from 'test-dex-sdk-core'
 import { useMemo } from 'react'
+import { TradeType } from 'test-dex-sdk-core'
 import { useDebounceWithStatus } from 'utilities/src/time/timing'
 import { useLocalizationContext } from 'wallet/src/features/language/LocalizationContext'
 import { useRouterQuote } from 'wallet/src/features/transactions/swap/trade/legacy/hooks/useRouterQuote'

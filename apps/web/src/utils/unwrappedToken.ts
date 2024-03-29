@@ -1,5 +1,5 @@
-import { Currency } from 'test-dex-sdk-core'
 import { asSupportedChain } from 'constants/chains'
+import { Currency } from 'test-dex-sdk-core'
 
 import { nativeOnChain, WRAPPED_NATIVE_CURRENCY } from '../constants/tokens'
 

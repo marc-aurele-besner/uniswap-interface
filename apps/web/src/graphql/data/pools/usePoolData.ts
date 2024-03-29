@@ -1,9 +1,9 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { ProtocolVersion, Token, useV2PairQuery, useV3PoolQuery } from 'graphql/data/__generated__/types-and-hooks'
 import { V2_BIPS } from 'graphql/data/pools/useTopPools'
 import { chainIdToBackendName } from 'graphql/data/util'
 import ms from 'ms'
 import { useMemo } from 'react'
+import { ChainId } from 'test-dex-sdk-core'
 
 export interface PoolData {
   // basic pool info

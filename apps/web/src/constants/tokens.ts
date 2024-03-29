@@ -11,13 +11,7 @@ export const USDC_MAINNET = new Token(
   'USDC',
   'USD//C'
 )
-export const USDC_NOVA = new Token( // To-do: update this token address
-  ChainId.NOVA,
-  '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48',
-  6,
-  'USDC',
-  'USD//C'
-)
+export const USDC_NOVA = new Token(ChainId.NOVA, '0xA0b86991c6218b36c1d19D4a2e9Eb0cE3606eB48', 6, 'USDC', 'USD//C') // To-do: update this token address
 export const USDC_GOERLI = new Token(ChainId.GOERLI, '0x07865c6e87b9f70255377e024ace6630c1eaa37f', 6, 'USDC', 'USD//C')
 export const USDC_SEPOLIA = new Token(
   ChainId.SEPOLIA,

@@ -1,9 +1,9 @@
 import { Trans } from '@lingui/macro'
-import { ChainId } from 'test-dex-sdk-core'
 import { useLimitsEnabled } from 'featureFlags/flags/limits'
 import { useSendEnabled } from 'featureFlags/flags/send'
 import { useSwapAndLimitContext, useSwapContext } from 'state/swap/SwapContext'
 import styled from 'styled-components'
+import { ChainId } from 'test-dex-sdk-core'
 import { isIFramed } from 'utils/isIFramed'
 
 import { sendAnalyticsEvent } from 'analytics'

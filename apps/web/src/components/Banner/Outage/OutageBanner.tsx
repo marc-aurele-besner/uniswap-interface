@@ -1,10 +1,10 @@
 import { Trans } from '@lingui/macro'
-import { ChainId } from 'test-dex-sdk-core'
 import { Container, PopupContainer, StyledXButton, TextContainer } from 'components/Banner/shared/styled'
 import { chainIdToBackendName } from 'graphql/data/util'
 import { useState } from 'react'
 import { Globe } from 'react-feather'
 import styled, { useTheme } from 'styled-components'
+import { ChainId } from 'test-dex-sdk-core'
 import { ExternalLink, ThemedText } from 'theme/components'
 import { capitalize } from 'tsafe'
 

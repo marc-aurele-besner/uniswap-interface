@@ -1,7 +1,7 @@
-import { ChainId, Currency } from 'test-dex-sdk-core'
 import { PortfolioLogo } from 'components/AccountDrawer/MiniPortfolio/PortfolioLogo'
 import React from 'react'
 import styled from 'styled-components'
+import { ChainId, Currency } from 'test-dex-sdk-core'
 
 export const MissingImageLogo = styled.div<{ size?: string }>`
   --size: ${({ size }) => size};

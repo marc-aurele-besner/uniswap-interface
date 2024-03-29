@@ -1,9 +1,9 @@
 import { Interface } from '@ethersproject/abi'
-import { Currency, CurrencyAmount, Token } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import JSBI from 'jsbi'
 import { useMultipleContractSingleData, useSingleContractMultipleData } from 'lib/hooks/multicall'
 import { useMemo } from 'react'
+import { Currency, CurrencyAmount, Token } from 'test-dex-sdk-core'
 import ERC20ABI from 'uniswap/src/abis/erc20.json'
 import { Erc20Interface } from 'uniswap/src/abis/types/Erc20'
 

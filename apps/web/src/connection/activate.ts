@@ -1,11 +1,11 @@
 import { InterfaceEventName, WalletConnectionResult } from '@uniswap/analytics-events'
-import { ChainId } from 'test-dex-sdk-core'
 import { sendAnalyticsEvent } from 'analytics'
 import { Connection } from 'connection/types'
 import { atom } from 'jotai'
 import { useAtomValue, useUpdateAtom } from 'jotai/utils'
 import { useCallback } from 'react'
 import { useLocation } from 'react-router-dom'
+import { ChainId } from 'test-dex-sdk-core'
 import { getCurrentPageFromLocation } from 'utils/urlRoutes'
 
 import { trace } from 'tracing/trace'

@@ -1,6 +1,6 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { Dispatch, PropsWithChildren, SetStateAction } from 'react'
 import { CurrencyState, EMPTY_DERIVED_SWAP_INFO, SwapAndLimitContext, SwapContext } from 'state/swap/SwapContext'
+import { ChainId } from 'test-dex-sdk-core'
 import { act, render, screen } from 'test-utils/render'
 
 import { Field, SwapTab } from './constants'

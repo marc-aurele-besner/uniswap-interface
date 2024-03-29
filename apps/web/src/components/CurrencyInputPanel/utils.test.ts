@@ -1,5 +1,5 @@
-import { ChainId, Token } from 'test-dex-sdk-core'
 import { DAI } from 'constants/tokens'
+import { ChainId, Token } from 'test-dex-sdk-core'
 
 import { formatCurrencySymbol } from './utils'
 

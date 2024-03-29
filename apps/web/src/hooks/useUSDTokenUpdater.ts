@@ -1,6 +1,6 @@
-import { Currency } from 'test-dex-sdk-core'
 import tryParseCurrencyAmount from 'lib/utils/tryParseCurrencyAmount'
 import { useMemo } from 'react'
+import { Currency } from 'test-dex-sdk-core'
 import { NumberType, useFormatter } from 'utils/formatNumbers'
 
 import { asSupportedChain } from 'constants/chains'

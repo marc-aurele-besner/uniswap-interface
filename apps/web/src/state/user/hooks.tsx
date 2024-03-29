@@ -1,4 +1,3 @@
-import { Percent, Token, V2_FACTORY_ADDRESSES } from 'test-dex-sdk-core'
 import { Pair, computePairAddress } from '@uniswap/v2-sdk'
 import { useWeb3React } from '@web3-react/core'
 import { L2_CHAIN_IDS } from 'constants/chains'
@@ -8,6 +7,7 @@ import JSBI from 'jsbi'
 import { useCallback, useMemo } from 'react'
 import { useAppDispatch, useAppSelector } from 'state/hooks'
 import { RouterPreference } from 'state/routing/types'
+import { Percent, Token, V2_FACTORY_ADDRESSES } from 'test-dex-sdk-core'
 import { UserAddedToken } from 'types/tokens'
 
 import { BASES_TO_TRACK_LIQUIDITY_FOR, PINNED_PAIRS } from '../../constants/routing'

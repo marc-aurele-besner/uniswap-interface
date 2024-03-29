@@ -1,14 +1,5 @@
 import { Contract } from '@ethersproject/contracts'
 import { InterfaceEventName } from '@uniswap/analytics-events'
-import {
-  ARGENT_WALLET_DETECTOR_ADDRESS,
-  ChainId,
-  ENS_REGISTRAR_ADDRESSES,
-  MULTICALL_ADDRESSES,
-  NONFUNGIBLE_POSITION_MANAGER_ADDRESSES,
-  V2_ROUTER_ADDRESSES,
-  V3_MIGRATOR_ADDRESSES,
-} from 'test-dex-sdk-core'
 import IUniswapV2PairJson from '@uniswap/v2-core/build/IUniswapV2Pair.json'
 import IUniswapV2Router02Json from '@uniswap/v2-periphery/build/IUniswapV2Router02.json'
 import NonfungiblePositionManagerJson from '@uniswap/v3-periphery/artifacts/contracts/NonfungiblePositionManager.sol/NonfungiblePositionManager.json'
@@ -20,6 +11,15 @@ import { DEPRECATED_RPC_PROVIDERS, RPC_PROVIDERS } from 'constants/providers'
 import { WRAPPED_NATIVE_CURRENCY } from 'constants/tokens'
 import { useFallbackProviderEnabled } from 'featureFlags/flags/fallbackProvider'
 import { useEffect, useMemo } from 'react'
+import {
+  ARGENT_WALLET_DETECTOR_ADDRESS,
+  ChainId,
+  ENS_REGISTRAR_ADDRESSES,
+  MULTICALL_ADDRESSES,
+  NONFUNGIBLE_POSITION_MANAGER_ADDRESSES,
+  V2_ROUTER_ADDRESSES,
+  V3_MIGRATOR_ADDRESSES,
+} from 'test-dex-sdk-core'
 import ARGENT_WALLET_DETECTOR_ABI from 'uniswap/src/abis/argent-wallet-detector.json'
 import EIP_2612 from 'uniswap/src/abis/eip_2612.json'
 import ENS_PUBLIC_RESOLVER_ABI from 'uniswap/src/abis/ens-public-resolver.json'

@@ -1,10 +1,10 @@
 import { Trans } from '@lingui/macro'
-import { Currency } from 'test-dex-sdk-core'
 import Column from 'components/Column'
 import Row from 'components/Row'
 import { ReactNode } from 'react'
 import { AlertTriangle } from 'react-feather'
 import styled, { useTheme } from 'styled-components'
+import { Currency } from 'test-dex-sdk-core'
 import { ThemedText } from 'theme/components'
 import { FadePresence, FadePresenceAnimationType } from 'theme/components/FadePresence'
 

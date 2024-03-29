@@ -1,6 +1,6 @@
-import { Currency, CurrencyAmount, Token } from 'test-dex-sdk-core'
 import { useSingleCallResult } from 'lib/hooks/multicall'
 import { useMemo } from 'react'
+import { Currency, CurrencyAmount, Token } from 'test-dex-sdk-core'
 
 import { useTokenContract } from './useContract'
 

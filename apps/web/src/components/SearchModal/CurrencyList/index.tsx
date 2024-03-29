@@ -1,5 +1,4 @@
 import { BrowserEvent, InterfaceElementName, InterfaceEventName } from '@uniswap/analytics-events'
-import { Currency, CurrencyAmount, Token } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { TraceEvent } from 'analytics'
 import Loader from 'components/Icons/LoadingSpinner'
@@ -12,6 +11,7 @@ import { CSSProperties, MutableRefObject, useCallback } from 'react'
 import { FixedSizeList } from 'react-window'
 import { Text } from 'rebass'
 import styled from 'styled-components'
+import { Currency, CurrencyAmount, Token } from 'test-dex-sdk-core'
 import { ThemedText } from 'theme/components'
 import { NumberType, useFormatter } from 'utils/formatNumbers'
 

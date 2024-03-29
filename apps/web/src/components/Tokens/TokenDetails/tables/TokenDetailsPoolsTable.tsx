@@ -1,9 +1,9 @@
-import { ChainId, Token } from 'test-dex-sdk-core'
 import { PoolTableColumns, PoolsTable, sortAscendingAtom, sortMethodAtom } from 'components/Pools/PoolTable/PoolTable'
 import { usePoolsFromTokenAddress } from 'graphql/data/pools/usePoolsFromTokenAddress'
 import { OrderDirection } from 'graphql/data/util'
 import { useAtomValue, useResetAtom } from 'jotai/utils'
 import { useEffect, useMemo } from 'react'
+import { ChainId, Token } from 'test-dex-sdk-core'
 
 const HIDDEN_COLUMNS = [PoolTableColumns.Transactions]
 

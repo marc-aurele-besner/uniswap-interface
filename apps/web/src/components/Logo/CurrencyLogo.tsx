@@ -1,5 +1,5 @@
-import { Currency } from 'test-dex-sdk-core'
 import { TokenInfo } from '@uniswap/token-lists'
+import { Currency } from 'test-dex-sdk-core'
 
 import AssetLogo, { AssetLogoBaseProps } from './AssetLogo'
 

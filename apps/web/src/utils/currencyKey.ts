@@ -1,7 +1,7 @@
-import { ChainId, Currency } from 'test-dex-sdk-core'
 import { NATIVE_CHAIN_ID } from 'constants/tokens'
 import { Chain, TokenStandard } from 'graphql/data/__generated__/types-and-hooks'
 import { supportedChainIdFromGQLChain } from 'graphql/data/util'
+import { ChainId, Currency } from 'test-dex-sdk-core'
 
 export type CurrencyKey = string
 

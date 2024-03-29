@@ -1,6 +1,6 @@
-import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import { providers } from 'ethers'
 import { useMemo } from 'react'
+import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import { logger } from 'utilities/src/logger/logger'
 import { isWrapAction } from 'wallet/src/features/transactions/swap/utils'
 import { WrapParams, tokenWrapActions } from 'wallet/src/features/transactions/swap/wrapSaga'

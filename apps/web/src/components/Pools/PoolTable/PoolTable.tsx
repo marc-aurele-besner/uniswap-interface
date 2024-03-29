@@ -1,7 +1,6 @@
 import { ApolloError } from '@apollo/client'
 import { Trans } from '@lingui/macro'
 import { ColumnDef, createColumnHelper } from '@tanstack/react-table'
-import { ChainId, Percent } from 'test-dex-sdk-core'
 import { DoubleTokenAndChainLogo } from 'components/Pools/PoolDetails/PoolDetailsHeader'
 import Row from 'components/Row'
 import { Table } from 'components/Table'
@@ -25,6 +24,7 @@ import { atomWithReset, useAtomValue, useResetAtom, useUpdateAtom } from 'jotai/
 import { ReactElement, ReactNode, useCallback, useEffect, useMemo } from 'react'
 import { useParams } from 'react-router-dom'
 import styled from 'styled-components'
+import { ChainId, Percent } from 'test-dex-sdk-core'
 import { ThemedText } from 'theme/components'
 import { NumberType, useFormatter } from 'utils/formatNumbers'
 

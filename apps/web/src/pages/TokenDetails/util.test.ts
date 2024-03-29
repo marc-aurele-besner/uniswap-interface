@@ -1,5 +1,5 @@
-import { Token } from 'test-dex-sdk-core'
 import { ZERO_ADDRESS } from 'constants/misc'
+import { Token } from 'test-dex-sdk-core'
 import { getTokenPageTitle } from './utils'
 
 describe('pages/TokenDetails/util', () => {

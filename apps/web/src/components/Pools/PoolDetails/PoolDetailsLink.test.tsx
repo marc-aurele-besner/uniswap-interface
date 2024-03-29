@@ -1,7 +1,7 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { USDC_MAINNET } from 'constants/tokens'
 import store from 'state'
 import { addSerializedToken } from 'state/user/reducer'
+import { ChainId } from 'test-dex-sdk-core'
 import { usdcWethPoolAddress, validBEPoolToken0, validBEPoolToken1 } from 'test-utils/pools/fixtures'
 import { render, screen } from 'test-utils/render'
 

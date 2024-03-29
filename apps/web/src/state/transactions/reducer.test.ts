@@ -1,5 +1,5 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { createStore, Store } from 'redux'
+import { ChainId } from 'test-dex-sdk-core'
 
 import reducer, {
   addTransaction,

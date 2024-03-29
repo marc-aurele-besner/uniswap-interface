@@ -1,6 +1,6 @@
-import { Currency, TradeType } from 'test-dex-sdk-core'
 import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
+import { Currency, TradeType } from 'test-dex-sdk-core'
 import { Flex, Icons, Text, TouchableArea } from 'ui/src'
 import { NumberType } from 'utilities/src/format/types'
 import { Trace } from 'utilities/src/telemetry/trace/Trace'

@@ -1,6 +1,6 @@
-import { TradeType } from 'test-dex-sdk-core'
 import { UniswapXOrderStatus } from 'lib/hooks/orders/types'
 import { createStore, Store } from 'redux'
+import { TradeType } from 'test-dex-sdk-core'
 
 import { TransactionType } from '../transactions/types'
 import reducer, { addSignature, initialState, removeSignature, SignatureState, updateSignature } from './reducer'

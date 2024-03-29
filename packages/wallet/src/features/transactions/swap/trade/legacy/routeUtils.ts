@@ -1,8 +1,8 @@
 import { MixedRouteSDK } from '@uniswap/router-sdk'
-import { Currency, CurrencyAmount, Percent, Token, TradeType } from 'test-dex-sdk-core'
 import { Pair, Route as V2Route } from '@uniswap/v2-sdk'
 import { FeeAmount, Pool, Route as V3Route } from '@uniswap/v3-sdk'
 import { BigNumber } from 'ethers'
+import { Currency, CurrencyAmount, Percent, Token, TradeType } from 'test-dex-sdk-core'
 import { MAX_AUTO_SLIPPAGE_TOLERANCE } from 'wallet/src/constants/transactions'
 import { NativeCurrency } from 'wallet/src/features/tokens/NativeCurrency'
 import {

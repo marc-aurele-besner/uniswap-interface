@@ -1,8 +1,8 @@
 import { Trans } from '@lingui/macro'
-import { Percent } from 'test-dex-sdk-core'
 import Row from 'components/Row'
 import { X } from 'react-feather'
 import styled, { css } from 'styled-components'
+import { Percent } from 'test-dex-sdk-core'
 import { ClickableStyle, ThemedText } from 'theme/components'
 import { useFormatter } from 'utils/formatNumbers'
 

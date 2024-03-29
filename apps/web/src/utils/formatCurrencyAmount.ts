@@ -1,7 +1,7 @@
-import { Currency, CurrencyAmount, Fraction } from 'test-dex-sdk-core'
 import { DEFAULT_LOCALE, SupportedLocale } from 'constants/locales'
 import JSBI from 'jsbi'
 import formatLocaleNumber from 'lib/utils/formatLocaleNumber'
+import { Currency, CurrencyAmount, Fraction } from 'test-dex-sdk-core'
 
 export function formatCurrencyAmount(
   amount: CurrencyAmount<Currency> | undefined,

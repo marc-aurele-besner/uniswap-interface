@@ -1,6 +1,6 @@
-import { Percent } from 'test-dex-sdk-core'
 import { useUserSlippageTolerance } from 'state/user/hooks'
 import { SlippageTolerance } from 'state/user/types'
+import { Percent } from 'test-dex-sdk-core'
 import { mocked } from 'test-utils/mocked'
 import { render, screen } from 'test-utils/render'
 import { lightDeprecatedTheme } from 'theme/deprecatedColors'

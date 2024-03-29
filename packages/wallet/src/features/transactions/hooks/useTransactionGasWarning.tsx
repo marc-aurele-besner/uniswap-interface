@@ -1,18 +1,18 @@
-import { CurrencyAmount, NativeCurrency } from 'test-dex-sdk-core'
 import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
+import { CurrencyAmount, NativeCurrency } from 'test-dex-sdk-core'
 import { isWeb } from 'ui/src'
 import { useOnChainNativeCurrencyBalance } from 'wallet/src/features/portfolio/api'
-import { DerivedSwapInfo } from 'wallet/src/features/transactions/swap/types'
-import { CurrencyField } from 'wallet/src/features/transactions/transactionState/types'
-import { DerivedTransferInfo } from 'wallet/src/features/transactions/transfer/types'
-import { hasSufficientFundsIncludingGas } from 'wallet/src/features/transactions/utils'
 import {
   Warning,
   WarningAction,
   WarningLabel,
   WarningSeverity,
 } from 'wallet/src/features/transactions/WarningModal/types'
+import { DerivedSwapInfo } from 'wallet/src/features/transactions/swap/types'
+import { CurrencyField } from 'wallet/src/features/transactions/transactionState/types'
+import { DerivedTransferInfo } from 'wallet/src/features/transactions/transfer/types'
+import { hasSufficientFundsIncludingGas } from 'wallet/src/features/transactions/utils'
 import { useActiveAccountAddressWithThrow } from 'wallet/src/features/wallet/hooks'
 
 export function useTransactionGasWarning({

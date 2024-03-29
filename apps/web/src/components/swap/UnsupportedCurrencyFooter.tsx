@@ -1,5 +1,4 @@
 import { Trans } from '@lingui/macro'
-import { Currency } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { ButtonEmpty } from 'components/Button'
 import Card, { OutlineCard } from 'components/Card'
@@ -9,6 +8,7 @@ import Modal from 'components/Modal'
 import { AutoRow, RowBetween } from 'components/Row'
 import { useState } from 'react'
 import styled from 'styled-components'
+import { Currency } from 'test-dex-sdk-core'
 import { CloseIcon, ExternalLink, ThemedText } from 'theme/components'
 import { Z_INDEX } from 'theme/zIndex'
 

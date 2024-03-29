@@ -1,7 +1,7 @@
 import { Trans } from '@lingui/macro'
-import { Percent } from 'test-dex-sdk-core'
 import { OutlineCard } from 'components/Card'
 import styled, { useTheme } from 'styled-components'
+import { Percent } from 'test-dex-sdk-core'
 import { ThemedText } from 'theme/components'
 import { opacify } from 'theme/utils'
 import { useFormatter } from 'utils/formatNumbers'

@@ -1,4 +1,3 @@
-import { ChainId, Percent } from 'test-dex-sdk-core'
 import { exploreSearchStringAtom } from 'components/Tokens/state'
 import { BIPS_BASE } from 'constants/misc'
 import {
@@ -10,6 +9,7 @@ import {
 import { OrderDirection, chainIdToBackendName } from 'graphql/data/util'
 import { useAtomValue } from 'jotai/utils'
 import { useMemo } from 'react'
+import { ChainId, Percent } from 'test-dex-sdk-core'
 
 export function sortPools(pools: TablePool[], sortState: PoolTableSortState) {
   return pools.sort((a, b) => {

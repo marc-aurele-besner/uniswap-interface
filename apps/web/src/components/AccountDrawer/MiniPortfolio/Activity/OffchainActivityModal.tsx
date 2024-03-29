@@ -1,9 +1,8 @@
 import { Trans } from '@lingui/macro'
-import { ChainId, Currency, CurrencyAmount, TradeType } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import {
-  CancellationState,
   CancelLimitsDialog,
+  CancellationState,
 } from 'components/AccountDrawer/MiniPortfolio/Activity/CancelLimitsDialog'
 import { formatTimestamp } from 'components/AccountDrawer/MiniPortfolio/formatTimestamp'
 import { ButtonEmphasis, ButtonSize, ThemeButton } from 'components/Button'
@@ -11,8 +10,8 @@ import Column, { AutoColumn } from 'components/Column'
 import { OpacityHoverState } from 'components/Common'
 import Modal from 'components/Modal'
 import Row from 'components/Row'
-import { Field } from 'components/swap/constants'
 import { SwapModalHeaderAmount } from 'components/swap/SwapModalHeaderAmount'
+import { Field } from 'components/swap/constants'
 import { useCurrency } from 'hooks/Tokens'
 import { useUSDPrice } from 'hooks/useUSDPrice'
 import { atom } from 'jotai'
@@ -23,6 +22,7 @@ import { ArrowDown, X } from 'react-feather'
 import { useOrder } from 'state/signatures/hooks'
 import { SignatureType, UniswapXOrderDetails } from 'state/signatures/types'
 import styled, { useTheme } from 'styled-components'
+import { ChainId, Currency, CurrencyAmount, TradeType } from 'test-dex-sdk-core'
 import { Divider, ThemedText } from 'theme/components'
 import { ExplorerDataType, getExplorerLink } from 'utils/getExplorerLink'
 

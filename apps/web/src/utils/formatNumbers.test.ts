@@ -1,5 +1,4 @@
 import { renderHook } from '@testing-library/react'
-import { CurrencyAmount, Percent } from 'test-dex-sdk-core'
 import { DEFAULT_LOCAL_CURRENCY } from 'constants/localCurrencies'
 import { USDC_MAINNET } from 'constants/tokens'
 import { useCurrencyConversionFlagEnabled } from 'featureFlags/flags/currencyConversion'
@@ -7,6 +6,7 @@ import { useLocalCurrencyConversionRate } from 'graphql/data/ConversionRate'
 import { Currency } from 'graphql/data/__generated__/types-and-hooks'
 import { useActiveLocalCurrency } from 'hooks/useActiveLocalCurrency'
 import { useActiveLocale } from 'hooks/useActiveLocale'
+import { CurrencyAmount, Percent } from 'test-dex-sdk-core'
 import { mocked } from 'test-utils/mocked'
 
 import { NumberType, useFormatter } from './formatNumbers'

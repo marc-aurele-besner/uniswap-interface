@@ -1,5 +1,4 @@
 import { formatEther as ethersFormatEther } from '@ethersproject/units'
-import { Currency, CurrencyAmount, Percent, Price, Token } from 'test-dex-sdk-core'
 import {
   DEFAULT_LOCAL_CURRENCY,
   LOCAL_CURRENCY_SYMBOL_DISPLAY_TYPE,
@@ -14,6 +13,7 @@ import { useActiveLocale } from 'hooks/useActiveLocale'
 import usePrevious from 'hooks/usePrevious'
 import { useCallback, useMemo } from 'react'
 import { Bound } from 'state/mint/v3/actions'
+import { Currency, CurrencyAmount, Percent, Price, Token } from 'test-dex-sdk-core'
 
 type Nullish<T> = T | null | undefined
 type NumberFormatOptions = Intl.NumberFormatOptions

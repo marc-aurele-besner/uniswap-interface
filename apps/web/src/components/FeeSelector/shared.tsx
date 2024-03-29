@@ -1,7 +1,7 @@
 import { Trans } from '@lingui/macro'
-import { ChainId, SUPPORTED_CHAINS } from 'test-dex-sdk-core'
 import { FeeAmount } from '@uniswap/v3-sdk'
 import type { ReactNode } from 'react'
+import { ChainId, SUPPORTED_CHAINS } from 'test-dex-sdk-core'
 
 export const FEE_AMOUNT_DETAIL: Record<
   FeeAmount,

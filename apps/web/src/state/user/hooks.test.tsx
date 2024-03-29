@@ -1,8 +1,8 @@
 import { act } from '@testing-library/react'
-import { Percent } from 'test-dex-sdk-core'
 import { USDC_MAINNET } from 'constants/tokens'
 import store from 'state'
 import { RouterPreference } from 'state/routing/types'
+import { Percent } from 'test-dex-sdk-core'
 import { renderHook } from 'test-utils/render'
 
 import { deserializeToken, serializeToken, useRouterPreference, useUserSlippageTolerance } from './hooks'

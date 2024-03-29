@@ -1,5 +1,4 @@
 import { BrowserEvent, InterfaceElementName, InterfaceEventName } from '@uniswap/analytics-events'
-import { Currency } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { TraceEvent } from 'analytics'
 import CurrencyLogo from 'components/Logo/CurrencyLogo'
@@ -10,6 +9,7 @@ import { useTokenInfoFromActiveList } from 'hooks/useTokenInfoFromActiveList'
 import { getTokenAddress } from 'lib/utils/analytics'
 import { Text } from 'rebass'
 import styled from 'styled-components'
+import { Currency } from 'test-dex-sdk-core'
 import { currencyId } from 'utils/currencyId'
 
 const BaseWrapper = styled.div<{ disable?: boolean }>`

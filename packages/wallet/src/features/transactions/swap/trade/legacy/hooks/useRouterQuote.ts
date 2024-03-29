@@ -1,5 +1,5 @@
-import { TradeType } from 'test-dex-sdk-core'
 import { useMemo } from 'react'
+import { TradeType } from 'test-dex-sdk-core'
 import { GqlResult } from 'uniswap/src/data/types'
 import {
   RoutingIntent,

@@ -1,7 +1,7 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { useOpenLimitOrders } from 'components/AccountDrawer/MiniPortfolio/Activity/hooks'
 import { OpenLimitOrdersButton } from 'components/AccountDrawer/MiniPortfolio/Limits/OpenLimitOrdersButton'
 import { TransactionStatus } from 'graphql/data/__generated__/types-and-hooks'
+import { ChainId } from 'test-dex-sdk-core'
 import { mocked } from 'test-utils/mocked'
 import { act, fireEvent, render, screen } from 'test-utils/render'
 

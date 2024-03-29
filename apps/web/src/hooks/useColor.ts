@@ -1,10 +1,10 @@
-import { ChainId, Currency } from 'test-dex-sdk-core'
 import { DEFAULT_COLOR } from 'constants/tokenColors'
 import useTokenLogoSource from 'hooks/useAssetLogoSource'
 import { rgb } from 'polished'
 import { useEffect, useMemo, useRef, useState } from 'react'
 import { TokenFromList } from 'state/lists/tokenFromList'
 import { useTheme } from 'styled-components'
+import { ChainId, Currency } from 'test-dex-sdk-core'
 import { getAccessibleColor } from 'theme/utils'
 import { getColor } from 'utils/getColor'
 

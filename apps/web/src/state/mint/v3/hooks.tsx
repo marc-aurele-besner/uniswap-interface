@@ -1,5 +1,4 @@
 import { Trans } from '@lingui/macro'
-import { Currency, CurrencyAmount, Price, Rounding, Token } from 'test-dex-sdk-core'
 import {
   FeeAmount,
   Pool,
@@ -18,6 +17,7 @@ import tryParseCurrencyAmount from 'lib/utils/tryParseCurrencyAmount'
 import { ReactNode, useCallback, useMemo } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import { useAppDispatch, useAppSelector } from 'state/hooks'
+import { Currency, CurrencyAmount, Price, Rounding, Token } from 'test-dex-sdk-core'
 import { getTickToPrice } from 'utils/getTickToPrice'
 
 import { BIG_INT_ZERO } from '../../../constants/misc'

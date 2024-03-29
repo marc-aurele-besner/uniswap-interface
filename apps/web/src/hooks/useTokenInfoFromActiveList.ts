@@ -1,7 +1,7 @@
-import { Currency } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { useMemo } from 'react'
 import { useCombinedActiveList } from 'state/lists/hooks'
+import { Currency } from 'test-dex-sdk-core'
 
 /** Returns a TokenFromList from the active token lists when possible, or the passed token otherwise. */
 export function useTokenInfoFromActiveList(currency: Currency) {

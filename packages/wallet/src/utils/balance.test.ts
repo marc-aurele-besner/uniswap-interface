@@ -1,5 +1,5 @@
-import { CurrencyAmount } from 'test-dex-sdk-core'
 import JSBI from 'jsbi'
+import { CurrencyAmount } from 'test-dex-sdk-core'
 import { DAI } from 'wallet/src/constants/tokens'
 import {
   ARBITRUM_CURRENCY,

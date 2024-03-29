@@ -1,4 +1,3 @@
-import { ChainId, WETH9 } from 'test-dex-sdk-core'
 import { useOpenLimitOrders } from 'components/AccountDrawer/MiniPortfolio/Activity/hooks'
 import { Activity } from 'components/AccountDrawer/MiniPortfolio/Activity/types'
 import { LimitsMenu } from 'components/AccountDrawer/MiniPortfolio/Limits/LimitsMenu'
@@ -6,6 +5,7 @@ import { DAI } from 'constants/tokens'
 import { TransactionStatus } from 'graphql/data/__generated__/types-and-hooks'
 import { UniswapXOrderStatus } from 'lib/hooks/orders/types'
 import { SignatureType, UniswapXOrderDetails } from 'state/signatures/types'
+import { ChainId, WETH9 } from 'test-dex-sdk-core'
 import { mocked } from 'test-utils/mocked'
 import { act, fireEvent, render, screen } from 'test-utils/render'
 

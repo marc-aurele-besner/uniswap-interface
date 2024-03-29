@@ -1,12 +1,12 @@
 import { Trans } from '@lingui/macro'
 import { InterfaceEventName } from '@uniswap/analytics-events'
-import { Currency } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { sendAnalyticsEvent } from 'analytics'
 import useNativeCurrency from 'lib/hooks/useNativeCurrency'
 import { formatToDecimal, getTokenAddress } from 'lib/utils/analytics'
 import tryParseCurrencyAmount from 'lib/utils/tryParseCurrencyAmount'
 import { useMemo, useState } from 'react'
+import { Currency } from 'test-dex-sdk-core'
 
 import { trace } from 'tracing/trace'
 import { WRAPPED_NATIVE_CURRENCY } from '../constants/tokens'

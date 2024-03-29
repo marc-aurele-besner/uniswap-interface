@@ -1,6 +1,6 @@
-import { CurrencyAmount, Percent, Token } from 'test-dex-sdk-core'
 import { useMemo } from 'react'
 import { InterfaceTrade } from 'state/routing/types'
+import { CurrencyAmount, Percent, Token } from 'test-dex-sdk-core'
 
 export function useMaxAmountIn(trade: InterfaceTrade | undefined, allowedSlippage: Percent) {
   return useMemo(() => {

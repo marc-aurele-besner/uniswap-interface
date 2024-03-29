@@ -1,5 +1,5 @@
-import { Currency, CurrencyAmount, Fraction, Percent } from 'test-dex-sdk-core'
 import JSBI from 'jsbi'
+import { Currency, CurrencyAmount, Fraction, Percent } from 'test-dex-sdk-core'
 
 const ONE = new Fraction(1, 1)
 

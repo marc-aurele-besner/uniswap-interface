@@ -1,7 +1,7 @@
-import { Currency, CurrencyAmount, Fraction, Price } from 'test-dex-sdk-core'
 import { parseUnits } from 'ethers/lib/utils'
 import JSBI from 'jsbi'
 import { useMemo } from 'react'
+import { Currency, CurrencyAmount, Fraction, Price } from 'test-dex-sdk-core'
 
 type CurrentPriceAdjustmentResult =
   | { currentPriceAdjustment: number; priceError: boolean }

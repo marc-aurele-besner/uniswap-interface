@@ -1,5 +1,5 @@
-import { Currency } from 'test-dex-sdk-core'
 import { TokenTradeInput } from 'graphql/data/__generated__/types-and-hooks'
+import { Currency } from 'test-dex-sdk-core'
 import { devtools } from 'zustand/middleware'
 import { shallow } from 'zustand/shallow'
 import { createWithEqualityFn } from 'zustand/traditional'

@@ -1,7 +1,7 @@
-import { ChainId, Token } from 'test-dex-sdk-core'
 import { createMigrate } from 'redux-persist'
 import { RouterPreference } from 'state/routing/types'
 import { SlippageTolerance } from 'state/user/types'
+import { ChainId, Token } from 'test-dex-sdk-core'
 
 import { migration1 } from './1'
 import { migration2 } from './2'

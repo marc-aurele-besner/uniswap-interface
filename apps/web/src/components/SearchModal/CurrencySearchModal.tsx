@@ -1,7 +1,7 @@
-import { Currency, Token } from 'test-dex-sdk-core'
 import TokenSafety from 'components/TokenSafety'
 import { memo, useCallback, useEffect, useState } from 'react'
 import { useUserAddedTokens } from 'state/user/hooks'
+import { Currency, Token } from 'test-dex-sdk-core'
 
 import useLast from '../../hooks/useLast'
 import { useWindowSize } from '../../hooks/useWindowSize'

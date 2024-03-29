@@ -1,5 +1,4 @@
 import { Protocol } from '@uniswap/router-sdk'
-import { Currency, Percent, TradeType } from 'test-dex-sdk-core'
 import {
   FlatFeeOptions,
   SwapOptions as UniversalRouterSwapOptions,
@@ -7,6 +6,7 @@ import {
 } from '@uniswap/universal-router-sdk'
 import { FeeOptions } from '@uniswap/v3-sdk'
 import { BigNumber } from 'ethers'
+import { Currency, Percent, TradeType } from 'test-dex-sdk-core'
 import { AppTFunction } from 'ui/src/i18n/types'
 import { NumberType } from 'utilities/src/format/types'
 import { ChainId } from 'wallet/src/constants/chains'
@@ -148,7 +148,7 @@ export function requireAcceptNewTrade(oldTrade: Maybe<Trade>, newTrade: Maybe<Tr
   if (!oldTrade || !newTrade) {
     return false
   }
-
+  // eslint-disable-next-line @typescript-eslint/no-unsafe-return
   return (
     oldTrade.tradeType !== newTrade.tradeType ||
     !oldTrade.inputAmount.currency.equals(newTrade.inputAmount.currency) ||

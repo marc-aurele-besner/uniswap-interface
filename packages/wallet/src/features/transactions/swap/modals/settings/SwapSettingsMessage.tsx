@@ -1,5 +1,5 @@
-import { Currency, TradeType } from 'test-dex-sdk-core'
 import { useTranslation } from 'react-i18next'
+import { Currency, TradeType } from 'test-dex-sdk-core'
 import { Flex, Text, useSporeColors } from 'ui/src'
 import AlertTriangleIcon from 'ui/src/assets/icons/alert-triangle.svg'
 import { fonts, iconSizes, spacing } from 'ui/src/theme'

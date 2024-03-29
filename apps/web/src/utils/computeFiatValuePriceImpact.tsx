@@ -1,5 +1,5 @@
-import { Percent } from 'test-dex-sdk-core'
 import { BIPS_BASE } from 'constants/misc'
+import { Percent } from 'test-dex-sdk-core'
 
 export function computeFiatValuePriceImpact(
   fiatValueInput: number | undefined | null,

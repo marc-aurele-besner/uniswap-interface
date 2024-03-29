@@ -1,8 +1,8 @@
 import { Trans } from '@lingui/macro'
-import { Percent, TradeType } from 'test-dex-sdk-core'
 import Column from 'components/Column'
 import { RowBetween } from 'components/Row'
 import { InterfaceTrade } from 'state/routing/types'
+import { Percent, TradeType } from 'test-dex-sdk-core'
 import { ExternalLink, Separator, ThemedText } from 'theme/components'
 import { NumberType, useFormatter } from 'utils/formatNumbers'
 

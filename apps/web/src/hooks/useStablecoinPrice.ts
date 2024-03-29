@@ -1,17 +1,12 @@
-import { ChainId, Currency, CurrencyAmount, Price, Token, TradeType } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import tryParseCurrencyAmount from 'lib/utils/tryParseCurrencyAmount'
 import { useMemo, useRef } from 'react'
 import { ClassicTrade, INTERNAL_ROUTER_PREFERENCE_PRICE } from 'state/routing/types'
 import { useRoutingAPITrade } from 'state/routing/useRoutingAPITrade'
+import { ChainId, Currency, CurrencyAmount, Price, Token, TradeType } from 'test-dex-sdk-core'
 
 import { SupportedInterfaceChain, asSupportedChain } from 'constants/chains'
-import {
-  USDC_GOERLI,
-  USDC_NOVA,
-  USDC_POLYGON_MUMBAI,
-  USDC_SEPOLIA,
-} from '../constants/tokens'
+import { USDC_GOERLI, USDC_NOVA, USDC_POLYGON_MUMBAI, USDC_SEPOLIA } from '../constants/tokens'
 
 // Stablecoin amounts used when calculating spot price for a given currency.
 // The amount is large enough to filter low liquidity pairs.

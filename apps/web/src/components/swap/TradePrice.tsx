@@ -1,9 +1,9 @@
 import { Trans } from '@lingui/macro'
-import { Currency, Price } from 'test-dex-sdk-core'
 import { useUSDPrice } from 'hooks/useUSDPrice'
 import tryParseCurrencyAmount from 'lib/utils/tryParseCurrencyAmount'
 import { useCallback, useMemo, useState } from 'react'
 import styled from 'styled-components'
+import { Currency, Price } from 'test-dex-sdk-core'
 import { ThemedText } from 'theme/components'
 import { NumberType, useFormatter } from 'utils/formatNumbers'
 

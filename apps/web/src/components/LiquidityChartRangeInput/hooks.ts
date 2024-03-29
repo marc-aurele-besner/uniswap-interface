@@ -1,7 +1,7 @@
-import { Currency } from 'test-dex-sdk-core'
 import { FeeAmount } from '@uniswap/v3-sdk'
 import { TickProcessed, usePoolActiveLiquidity } from 'hooks/usePoolTickData'
 import { useCallback, useMemo } from 'react'
+import { Currency } from 'test-dex-sdk-core'
 
 import { ChartEntry } from './types'
 

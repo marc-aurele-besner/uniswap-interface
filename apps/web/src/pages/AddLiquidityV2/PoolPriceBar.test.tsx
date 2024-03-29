@@ -1,6 +1,6 @@
-import { Price, WETH9 } from 'test-dex-sdk-core'
 import { USDC_MAINNET } from 'constants/tokens'
 import { Field } from 'state/mint/actions'
+import { Price, WETH9 } from 'test-dex-sdk-core'
 import { render, screen } from 'test-utils/render'
 
 import { PoolPriceBar } from './PoolPriceBar'

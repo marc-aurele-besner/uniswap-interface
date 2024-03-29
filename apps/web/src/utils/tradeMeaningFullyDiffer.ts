@@ -1,5 +1,5 @@
-import { Percent } from 'test-dex-sdk-core'
 import { InterfaceTrade } from 'state/routing/types'
+import { Percent } from 'test-dex-sdk-core'
 
 /**
  * Returns true if the trade requires a confirmation of details before we can submit it

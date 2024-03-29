@@ -1,6 +1,6 @@
 import { parseUnits } from '@ethersproject/units'
-import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import { BigNumber } from 'ethers'
+import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import { convertScientificNotationToNumber } from 'utilities/src/format/convertScientificNotation'
 import { logger } from 'utilities/src/logger/logger'
 

@@ -1,4 +1,3 @@
-import { ChainId } from 'test-dex-sdk-core'
 import Column from 'components/Column'
 import { BaseVariant, FeatureFlag, featureFlagSettings, useUpdateConfig, useUpdateFlag } from 'featureFlags'
 import { DynamicConfigName } from 'featureFlags/dynamicConfig'
@@ -30,6 +29,7 @@ import { X } from 'react-feather'
 import { useModalIsOpen, useToggleFeatureFlags } from 'state/application/hooks'
 import { ApplicationModal } from 'state/application/reducer'
 import styled from 'styled-components'
+import { ChainId } from 'test-dex-sdk-core'
 import { BREAKPOINTS } from 'theme'
 import { Z_INDEX } from 'theme/zIndex'
 

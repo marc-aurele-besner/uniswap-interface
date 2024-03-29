@@ -1,6 +1,6 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { Web3ReactHooks } from '@web3-react/core'
 import { Connector } from '@web3-react/types'
+import { ChainId } from 'test-dex-sdk-core'
 import { createDeferredPromise } from 'test-utils/promise'
 
 import { act, renderHook } from '../test-utils/render'

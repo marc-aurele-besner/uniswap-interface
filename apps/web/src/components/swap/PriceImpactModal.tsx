@@ -1,10 +1,10 @@
 import { Trans } from '@lingui/macro'
-import { Percent } from 'test-dex-sdk-core'
 import { ButtonEmphasis, ButtonSize, ThemeButton } from 'components/Button'
 import { ColumnCenter } from 'components/Column'
 import Row from 'components/Row'
 import { AlertTriangle } from 'react-feather'
 import styled from 'styled-components'
+import { Percent } from 'test-dex-sdk-core'
 import { CloseIcon, ThemedText } from 'theme/components'
 import { useFormatter } from 'utils/formatNumbers'
 

@@ -1,6 +1,6 @@
 import { ExternalProvider, JsonRpcProvider, JsonRpcSigner, Web3Provider } from '@ethersproject/providers'
-import { ChainId, CurrencyAmount } from 'test-dex-sdk-core'
 import { DAI, nativeOnChain } from 'constants/tokens'
+import { ChainId, CurrencyAmount } from 'test-dex-sdk-core'
 import { act, renderHook } from 'test-utils/render'
 
 import { useCreateTransferTransaction } from './transfer'

@@ -1,6 +1,6 @@
 import { createSlice, nanoid } from '@reduxjs/toolkit'
-import { ChainId } from 'test-dex-sdk-core'
 import { DEFAULT_TXN_DISMISS_MS } from 'constants/misc'
+import { ChainId } from 'test-dex-sdk-core'
 
 export enum PopupType {
   Transaction = 'transaction',

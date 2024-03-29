@@ -1,6 +1,6 @@
-import { Currency } from 'test-dex-sdk-core'
 import { FunctionComponent } from 'react'
 import { SvgProps } from 'react-native-svg'
+import { Currency } from 'test-dex-sdk-core'
 import { ColorTokens } from 'ui/src'
 import { ThemeNames } from 'ui/src/theme'
 

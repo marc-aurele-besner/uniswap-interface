@@ -1,6 +1,6 @@
 import { createSlice } from '@reduxjs/toolkit'
-import { ChainId } from 'test-dex-sdk-core'
 import { shallowEqual } from 'react-redux'
+import { ChainId } from 'test-dex-sdk-core'
 
 import { Wallet } from './types'
 

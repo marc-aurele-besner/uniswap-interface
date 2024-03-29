@@ -1,5 +1,4 @@
 import { SwapPriceUpdateUserResponse } from '@uniswap/analytics-events'
-import { Percent } from 'test-dex-sdk-core'
 import { SwapResult } from 'hooks/useSwapCallback'
 import {
   formatPercentInBasisPointsNumber,
@@ -10,6 +9,7 @@ import {
 } from 'lib/utils/analytics'
 import { InterfaceTrade, TradeFillType } from 'state/routing/types'
 import { isClassicTrade } from 'state/routing/utils'
+import { Percent } from 'test-dex-sdk-core'
 
 import { RoutingDiagramEntry } from './getRoutingDiagramEntries'
 import { computeRealizedPriceImpact } from './prices'

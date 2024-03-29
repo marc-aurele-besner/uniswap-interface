@@ -1,5 +1,4 @@
 import { Trans } from '@lingui/macro'
-import { ChainId } from 'test-dex-sdk-core'
 import { PortfolioLogo } from 'components/AccountDrawer/MiniPortfolio/PortfolioLogo'
 import { ButtonLight } from 'components/Button'
 import Column from 'components/Column'
@@ -15,6 +14,7 @@ import { useActiveLocale } from 'hooks/useActiveLocale'
 import { ArrowDown, CornerLeftUp, ExternalLink as ExternalLinkIcon } from 'react-feather'
 import { Link } from 'react-router-dom'
 import styled, { css } from 'styled-components'
+import { ChainId } from 'test-dex-sdk-core'
 import { ClickableStyle, EllipsisStyle, ExternalLink, ThemedText } from 'theme/components'
 import { Z_INDEX } from 'theme/zIndex'
 

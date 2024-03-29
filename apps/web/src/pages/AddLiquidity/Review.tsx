@@ -1,8 +1,8 @@
-import { Currency, CurrencyAmount, Price } from 'test-dex-sdk-core'
 import { Position } from '@uniswap/v3-sdk'
 import { AutoColumn } from 'components/Column'
 import { PositionPreview } from 'components/PositionPreview'
 import styled from 'styled-components'
+import { Currency, CurrencyAmount, Price } from 'test-dex-sdk-core'
 
 import { Bound, Field } from '../../state/mint/v3/actions'
 

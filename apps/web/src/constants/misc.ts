@@ -1,5 +1,5 @@
-import { Percent } from 'test-dex-sdk-core'
 import JSBI from 'jsbi'
+import { Percent } from 'test-dex-sdk-core'
 
 export const ZERO_ADDRESS = '0x0000000000000000000000000000000000000000'
 

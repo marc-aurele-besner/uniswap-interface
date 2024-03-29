@@ -1,6 +1,6 @@
-import { ChainId } from 'test-dex-sdk-core'
 import useHttpLocations from 'hooks/useHttpLocations'
 import { useMemo } from 'react'
+import { ChainId } from 'test-dex-sdk-core'
 import { isAddress } from 'utilities/src/addresses'
 
 import EthereumLogo from '../../assets/images/ethereum-logo.png'

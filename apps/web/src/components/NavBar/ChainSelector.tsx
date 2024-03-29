@@ -1,5 +1,4 @@
 import { t } from '@lingui/macro'
-import { ChainId } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { showTestnetsAtom } from 'components/AccountDrawer/TestnetsToggle'
 import { BaseButton } from 'components/Button'
@@ -20,6 +19,7 @@ import { useIsMobile } from 'nft/hooks'
 import { useCallback, useMemo, useRef, useState } from 'react'
 import { AlertTriangle, ChevronDown, ChevronUp } from 'react-feather'
 import styled, { useTheme } from 'styled-components'
+import { ChainId } from 'test-dex-sdk-core'
 import { getSupportedChainIdsFromWalletConnectSession } from 'utils/getSupportedChainIdsFromWalletConnectSession'
 
 import ChainSelectorRow from './ChainSelectorRow'

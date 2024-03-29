@@ -1,4 +1,3 @@
-import { ChainId, NONFUNGIBLE_POSITION_MANAGER_ADDRESSES, WETH9 } from 'test-dex-sdk-core'
 import { DAI } from 'constants/tokens'
 import {
   AssetActivityPartsFragment,
@@ -17,6 +16,7 @@ import {
   TransactionStatus,
   TransactionType,
 } from 'graphql/data/__generated__/types-and-hooks'
+import { ChainId, NONFUNGIBLE_POSITION_MANAGER_ADDRESSES, WETH9 } from 'test-dex-sdk-core'
 
 import { MOONPAY_SENDER_ADDRESSES } from '../../constants'
 

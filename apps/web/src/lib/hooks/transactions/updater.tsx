@@ -1,11 +1,11 @@
 import { TransactionReceipt } from '@ethersproject/abstract-provider'
-import { ChainId } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import useBlockNumber, { useFastForwardBlockNumber } from 'lib/hooks/useBlockNumber'
 import ms from 'ms'
 import { useCallback, useEffect } from 'react'
 import { useTransactionRemover } from 'state/transactions/hooks'
 import { TransactionDetails } from 'state/transactions/types'
+import { ChainId } from 'test-dex-sdk-core'
 
 import { NEVER_RELOAD } from '@uniswap/redux-multicall'
 import useCurrentBlockTimestamp from 'hooks/useCurrentBlockTimestamp'

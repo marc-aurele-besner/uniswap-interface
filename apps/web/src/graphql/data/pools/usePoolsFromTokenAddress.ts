@@ -1,8 +1,8 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { useTopV2PairsQuery, useTopV3PoolsQuery } from 'graphql/data/__generated__/types-and-hooks'
 import { PoolTableSortState, TablePool, V2_BIPS, calculateTurnover, sortPools } from 'graphql/data/pools/useTopPools'
 import { chainIdToBackendName } from 'graphql/data/util'
 import { useCallback, useMemo, useRef } from 'react'
+import { ChainId } from 'test-dex-sdk-core'
 
 const DEFAULT_QUERY_SIZE = 20
 

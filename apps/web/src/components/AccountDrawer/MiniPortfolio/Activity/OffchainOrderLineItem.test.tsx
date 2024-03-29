@@ -1,7 +1,7 @@
-import { ChainId, CurrencyAmount, WETH9 } from 'test-dex-sdk-core'
 import { DAI, USDC_MAINNET } from 'constants/tokens'
 import { UniswapXOrderStatus } from 'lib/hooks/orders/types'
 import { SignatureType } from 'state/signatures/types'
+import { ChainId, CurrencyAmount, WETH9 } from 'test-dex-sdk-core'
 import { render, screen } from 'test-utils/render'
 
 import { OffchainOrderLineItem, OffchainOrderLineItemType } from './OffchainOrderLineItem'

@@ -1,5 +1,4 @@
 import { t } from '@lingui/macro'
-import { ChainId } from 'test-dex-sdk-core'
 import { CoinbaseWallet } from '@web3-react/coinbase-wallet'
 import { initializeConnector } from '@web3-react/core'
 import { GnosisSafe } from '@web3-react/gnosis-safe'
@@ -12,6 +11,7 @@ import COINBASE_ICON from 'assets/wallets/coinbase-icon.svg'
 import UNIWALLET_ICON from 'assets/wallets/uniswap-wallet-icon.png'
 import WALLET_CONNECT_ICON from 'assets/wallets/walletconnect-icon.svg'
 import { useSyncExternalStore } from 'react'
+import { ChainId } from 'test-dex-sdk-core'
 import { isMobile, isTouchable, isWebAndroid, isWebIOS } from 'uniswap/src/utils/platform'
 
 import { APP_RPC_URLS } from '../constants/networks'

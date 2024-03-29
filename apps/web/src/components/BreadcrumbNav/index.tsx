@@ -1,5 +1,4 @@
 import { t, Trans } from '@lingui/macro'
-import { Currency } from 'test-dex-sdk-core'
 import Row from 'components/Row'
 import Tooltip, { TooltipSize } from 'components/Tooltip'
 import useCopyClipboard from 'hooks/useCopyClipboard'
@@ -8,6 +7,7 @@ import { useCallback, useState } from 'react'
 import { Copy } from 'react-feather'
 import { Link } from 'react-router-dom'
 import styled, { useTheme } from 'styled-components'
+import { Currency } from 'test-dex-sdk-core'
 import { ClickableStyle } from 'theme/components'
 import { shortenAddress } from 'utilities/src/addresses'
 

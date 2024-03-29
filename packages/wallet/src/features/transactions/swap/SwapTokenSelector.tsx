@@ -1,13 +1,13 @@
-import { Currency } from 'test-dex-sdk-core'
 import { useCallback } from 'react'
+import { Currency } from 'test-dex-sdk-core'
 import { isWeb } from 'ui/src'
-import { flowToModalName } from 'wallet/src/components/TokenSelector/flowToModalName'
 import {
   TokenSelector,
   TokenSelectorModal,
   TokenSelectorProps,
   TokenSelectorVariation,
 } from 'wallet/src/components/TokenSelector/TokenSelector'
+import { flowToModalName } from 'wallet/src/components/TokenSelector/flowToModalName'
 import { AssetType, TradeableAsset } from 'wallet/src/entities/assets'
 import { SearchContext } from 'wallet/src/features/search/SearchContext'
 import {

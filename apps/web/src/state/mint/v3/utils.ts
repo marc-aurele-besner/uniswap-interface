@@ -1,4 +1,3 @@
-import { Price, Token } from 'test-dex-sdk-core'
 import {
   FeeAmount,
   TICK_SPACINGS,
@@ -8,6 +7,7 @@ import {
   priceToClosestTick,
 } from '@uniswap/v3-sdk'
 import JSBI from 'jsbi'
+import { Price, Token } from 'test-dex-sdk-core'
 
 export function tryParsePrice(baseToken?: Token, quoteToken?: Token, value?: string) {
   if (!baseToken || !quoteToken || !value) {

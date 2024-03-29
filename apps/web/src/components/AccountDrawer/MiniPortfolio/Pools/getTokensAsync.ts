@@ -1,5 +1,5 @@
-import { ChainId, Token } from 'test-dex-sdk-core'
 import { Interface } from 'ethers/lib/utils'
+import { ChainId, Token } from 'test-dex-sdk-core'
 import ERC20_ABI from 'uniswap/src/abis/erc20.json'
 import { Erc20Interface } from 'uniswap/src/abis/types/Erc20'
 import { Erc20Bytes32Interface } from 'uniswap/src/abis/types/Erc20Bytes32'

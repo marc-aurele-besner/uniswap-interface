@@ -1,4 +1,3 @@
-import { Currency, CurrencyAmount, Percent, TradeType } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { WRAPPED_NATIVE_CURRENCY } from 'constants/tokens'
 import { useMemo } from 'react'
@@ -6,6 +5,7 @@ import { ClassicTrade, InterfaceTrade, QuoteMethod, RouterPreference, TradeState
 import { usePreviewTrade } from 'state/routing/usePreviewTrade'
 import { useRoutingAPITrade } from 'state/routing/useRoutingAPITrade'
 import { useRouterPreference } from 'state/user/hooks'
+import { Currency, CurrencyAmount, Percent, TradeType } from 'test-dex-sdk-core'
 
 import useAutoRouterSupported from './useAutoRouterSupported'
 import useDebounce from './useDebounce'

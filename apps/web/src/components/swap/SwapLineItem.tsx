@@ -1,5 +1,4 @@
 import { t, Trans } from '@lingui/macro'
-import { Currency, CurrencyAmount, Percent, TradeType } from 'test-dex-sdk-core'
 import { formatTimestamp } from 'components/AccountDrawer/MiniPortfolio/formatTimestamp'
 import { LoadingRow } from 'components/Loader/styled'
 import RouterLabel from 'components/RouterLabel'
@@ -14,6 +13,7 @@ import { isLimitTrade, isPreviewTrade, isUniswapXTrade } from 'state/routing/uti
 import { useUserSlippageTolerance } from 'state/user/hooks'
 import { SlippageTolerance } from 'state/user/types'
 import styled, { DefaultTheme } from 'styled-components'
+import { Currency, CurrencyAmount, Percent, TradeType } from 'test-dex-sdk-core'
 import { ExternalLink, ThemedText } from 'theme/components'
 import { NumberType, useFormatter } from 'utils/formatNumbers'
 import { getPriceImpactColor } from 'utils/prices'

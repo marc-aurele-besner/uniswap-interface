@@ -1,10 +1,10 @@
-import { Percent } from 'test-dex-sdk-core'
 import { PermitInput, TokenTradeRoutesInput, TokenTradeType } from 'graphql/data/__generated__/types-and-hooks'
 import { Allowance } from 'hooks/usePermit2Allowance'
 import { buildAllTradeRouteInputs } from 'nft/utils/tokenRoutes'
 import { useEffect } from 'react'
 import { InterfaceTrade } from 'state/routing/types'
 import { isClassicTrade } from 'state/routing/utils'
+import { Percent } from 'test-dex-sdk-core'
 
 import { useTokenInput } from './useTokenInput'
 

@@ -1,10 +1,10 @@
 import { skipToken } from '@reduxjs/toolkit/query/react'
-import { ChainId, Currency, CurrencyAmount, Percent, TradeType } from 'test-dex-sdk-core'
 import { ZERO_PERCENT } from 'constants/misc'
 import { useGatewayDNSUpdateAllEnabled } from 'featureFlags/flags/gatewayDNSUpdate'
 import { useQuickRouteMainnetEnabled } from 'featureFlags/flags/quickRouteMainnet'
 import useIsWindowVisible from 'hooks/useIsWindowVisible'
 import { useMemo } from 'react'
+import { ChainId, Currency, CurrencyAmount, Percent, TradeType } from 'test-dex-sdk-core'
 
 import { useGetQuickRouteQuery, useGetQuickRouteQueryState } from './quickRouteSlice'
 import { GetQuickQuoteArgs, PreviewTrade, QuoteState, TradeState } from './types'

@@ -1,8 +1,8 @@
 import { Trans } from '@lingui/macro'
-import { Currency, Price, Token } from 'test-dex-sdk-core'
 import StepCounter from 'components/InputStepCounter/InputStepCounter'
 import { AutoRow } from 'components/Row'
 import { Bound } from 'state/mint/v3/actions'
+import { Currency, Price, Token } from 'test-dex-sdk-core'
 
 // currencyA is the base token
 export default function RangeSelector({

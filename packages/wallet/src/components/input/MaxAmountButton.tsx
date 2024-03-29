@@ -1,6 +1,6 @@
-import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import { useTranslation } from 'react-i18next'
 import { StyleProp, ViewStyle } from 'react-native'
+import { Currency, CurrencyAmount } from 'test-dex-sdk-core'
 import { Text, TouchableArea } from 'ui/src'
 import { Trace } from 'utilities/src/telemetry/trace/Trace'
 import { ElementName } from 'wallet/src/telemetry/constants'

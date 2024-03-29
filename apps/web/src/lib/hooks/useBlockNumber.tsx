@@ -1,9 +1,9 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { DEPRECATED_RPC_PROVIDERS, RPC_PROVIDERS } from 'constants/providers'
 import { useFallbackProviderEnabled } from 'featureFlags/flags/fallbackProvider'
 import useIsWindowVisible from 'hooks/useIsWindowVisible'
 import { ReactNode, createContext, useCallback, useContext, useEffect, useMemo, useState } from 'react'
+import { ChainId } from 'test-dex-sdk-core'
 
 const MISSING_PROVIDER = Symbol()
 const BlockNumberContext = createContext<

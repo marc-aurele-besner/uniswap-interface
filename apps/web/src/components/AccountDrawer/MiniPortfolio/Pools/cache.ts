@@ -1,4 +1,3 @@
-import { ChainId, Token } from 'test-dex-sdk-core'
 import { Pool, Position } from '@uniswap/v3-sdk'
 import { useAllTokensMultichain } from 'hooks/Tokens'
 import { atom, useAtom } from 'jotai'
@@ -7,6 +6,7 @@ import ms from 'ms'
 import { useCallback } from 'react'
 import { deserializeToken, serializeToken } from 'state/user/hooks'
 import { SerializedToken } from 'state/user/types'
+import { ChainId, Token } from 'test-dex-sdk-core'
 import { PositionDetails } from 'types/position'
 import { buildCurrencyKey, currencyKey } from 'utils/currencyKey'
 

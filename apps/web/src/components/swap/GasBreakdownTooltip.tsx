@@ -1,5 +1,4 @@
 import { Trans } from '@lingui/macro'
-import { Currency } from 'test-dex-sdk-core'
 import { AutoColumn } from 'components/Column'
 import UniswapXRouterLabel, { UniswapXGradient } from 'components/RouterLabel/UniswapXRouterLabel'
 import Row from 'components/Row'
@@ -9,6 +8,7 @@ import { ReactNode } from 'react'
 import { InterfaceTrade } from 'state/routing/types'
 import { isPreviewTrade, isUniswapXTrade } from 'state/routing/utils'
 import styled from 'styled-components'
+import { Currency } from 'test-dex-sdk-core'
 import { Divider, ExternalLink, ThemedText } from 'theme/components'
 import { NumberType, useFormatter } from 'utils/formatNumbers'
 

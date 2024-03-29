@@ -1,7 +1,7 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import useBlockNumber, { useMainnetBlockNumber } from 'lib/hooks/useBlockNumber'
 import multicall from 'lib/state/multicall'
+import { ChainId } from 'test-dex-sdk-core'
 import { SkipFirst } from 'types/tuple'
 
 export { NEVER_RELOAD } from '@uniswap/redux-multicall' // re-export for convenience

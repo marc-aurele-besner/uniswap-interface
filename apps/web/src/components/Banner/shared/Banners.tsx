@@ -1,10 +1,10 @@
 import { InterfacePageName } from '@uniswap/analytics-events'
-import { ChainId } from 'test-dex-sdk-core'
 import { OutageBanner, getOutageBannerSessionStorageKey } from 'components/Banner/Outage/OutageBanner'
 import { useOutageBanners } from 'featureFlags/flags/outageBanner'
 import { getValidUrlChainId } from 'graphql/data/util'
 import { useMemo } from 'react'
 import { useLocation } from 'react-router-dom'
+import { ChainId } from 'test-dex-sdk-core'
 import { getCurrentPageFromLocation } from 'utils/urlRoutes'
 
 export function Banners() {

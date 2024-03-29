@@ -1,5 +1,4 @@
 import { t } from '@lingui/macro'
-import { ChainId } from 'test-dex-sdk-core'
 import { PortfolioLogo } from 'components/AccountDrawer/MiniPortfolio/PortfolioLogo'
 import { DeltaArrow } from 'components/Tokens/TokenDetails/Delta'
 import { LDO, NATIVE_CHAIN_ID, UNI, USDC_BASE } from 'constants/tokens'
@@ -9,6 +8,7 @@ import { useCurrency } from 'hooks/Tokens'
 import { useScreenSize } from 'hooks/useScreenSize'
 import { useNavigate } from 'react-router-dom'
 import styled from 'styled-components'
+import { ChainId } from 'test-dex-sdk-core'
 import { NumberType, useFormatter } from 'utils/formatNumbers'
 
 import { useCallback } from 'react'

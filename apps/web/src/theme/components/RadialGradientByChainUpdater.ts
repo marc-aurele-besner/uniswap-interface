@@ -1,7 +1,7 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { useIsNftPage } from 'hooks/useIsNftPage'
 import { useEffect } from 'react'
+import { ChainId } from 'test-dex-sdk-core'
 import { useDarkModeManager } from 'theme/components/ThemeToggle'
 
 import { darkTheme, lightTheme } from '../colors'

@@ -1,6 +1,6 @@
 import { ApolloError } from '@apollo/client'
-import { Token } from 'test-dex-sdk-core'
 import { useRef } from 'react'
+import { Token } from 'test-dex-sdk-core'
 import {
   Chain,
   ContractInput,

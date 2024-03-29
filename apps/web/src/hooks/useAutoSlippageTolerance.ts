@@ -1,5 +1,4 @@
 import { MixedRoute, partitionMixedRouteByProtocol, Protocol, Trade } from '@uniswap/router-sdk'
-import { Currency, CurrencyAmount, Percent, TradeType } from 'test-dex-sdk-core'
 import { Pair } from '@uniswap/v2-sdk'
 import { Pool } from '@uniswap/v3-sdk'
 import { useWeb3React } from '@web3-react/core'
@@ -8,6 +7,7 @@ import JSBI from 'jsbi'
 import useNativeCurrency from 'lib/hooks/useNativeCurrency'
 import { useMemo } from 'react'
 import { ClassicTrade } from 'state/routing/types'
+import { Currency, CurrencyAmount, Percent, TradeType } from 'test-dex-sdk-core'
 
 import useGasPrice from './useGasPrice'
 import { useStablecoinAmountFromFiatValue } from './useStablecoinPrice'

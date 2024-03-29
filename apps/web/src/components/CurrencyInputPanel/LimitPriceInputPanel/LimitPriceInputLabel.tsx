@@ -1,9 +1,9 @@
 import { Trans } from '@lingui/macro'
-import { Currency } from 'test-dex-sdk-core'
 import CurrencyLogo from 'components/Logo/CurrencyLogo'
 import PrefetchBalancesWrapper from 'components/PrefetchBalancesWrapper/PrefetchBalancesWrapper'
 import Row from 'components/Row'
 import styled from 'styled-components'
+import { Currency } from 'test-dex-sdk-core'
 import { ClickableStyle, ThemedText } from 'theme/components'
 
 const CurrencySymbolContainer = styled.span`

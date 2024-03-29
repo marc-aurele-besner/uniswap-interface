@@ -1,10 +1,10 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { getConnection } from 'connection'
 import { didUserReject } from 'connection/utils'
 import { useCallback } from 'react'
 import { PopupType, addPopup } from 'state/application/reducer'
 import { useAppDispatch } from 'state/hooks'
+import { ChainId } from 'test-dex-sdk-core'
 
 import { useSwitchChain } from './useSwitchChain'
 

@@ -1,4 +1,3 @@
-import { ChainId, WETH9 } from 'test-dex-sdk-core'
 import {
   MATIC_MAINNET,
   USDC_ARBITRUM,
@@ -11,6 +10,7 @@ import {
 } from 'constants/tokens'
 import { Chain } from 'graphql/data/__generated__/types-and-hooks'
 import { validateUrlChainParam } from 'graphql/data/util'
+import { ChainId, WETH9 } from 'test-dex-sdk-core'
 
 import { MoonpaySupportedCurrencyCode } from './constants'
 

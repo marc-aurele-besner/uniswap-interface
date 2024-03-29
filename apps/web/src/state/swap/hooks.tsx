@@ -1,5 +1,4 @@
 import { Trans } from '@lingui/macro'
-import { Currency, CurrencyAmount, Percent, TradeType } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { Field } from 'components/swap/constants'
 import { useConnectionReady } from 'connection/eagerlyConnect'
@@ -13,6 +12,7 @@ import { ReactNode, useCallback, useMemo } from 'react'
 import { InterfaceTrade, TradeState } from 'state/routing/types'
 import { isClassicTrade, isSubmittableTrade, isUniswapXTrade } from 'state/routing/utils'
 import { useUserSlippageToleranceWithDefault } from 'state/user/hooks'
+import { Currency, CurrencyAmount, Percent, TradeType } from 'test-dex-sdk-core'
 import { isAddress } from 'utilities/src/addresses'
 
 import { TOKEN_SHORTHANDS } from '../../constants/tokens'

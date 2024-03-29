@@ -1,12 +1,11 @@
 import { InterfacePageName } from '@uniswap/analytics-events'
-import { ChainId, Currency } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { Trace } from 'analytics'
 import { NetworkAlert } from 'components/NetworkAlert/NetworkAlert'
+import { SwitchLocaleLink } from 'components/SwitchLocaleLink'
+import SwapHeader from 'components/swap/SwapHeader'
 import { SwapTab } from 'components/swap/constants'
 import { PageWrapper, SwapWrapper } from 'components/swap/styled'
-import SwapHeader from 'components/swap/SwapHeader'
-import { SwitchLocaleLink } from 'components/SwitchLocaleLink'
 import { asSupportedChain } from 'constants/chains'
 import { useCurrency } from 'hooks/Tokens'
 import useParsedQueryString from 'hooks/useParsedQueryString'
@@ -15,13 +14,14 @@ import { ReactNode, useMemo } from 'react'
 import { useLocation } from 'react-router-dom'
 import { InterfaceTrade, TradeState } from 'state/routing/types'
 import { isPreviewTrade } from 'state/routing/utils'
-import { queryParametersToCurrencyState } from 'state/swap/hooks'
 import {
   CurrencyState,
   SwapAndLimitContext,
   SwapAndLimitContextProvider,
   SwapContextProvider,
 } from 'state/swap/SwapContext'
+import { queryParametersToCurrencyState } from 'state/swap/hooks'
+import { ChainId, Currency } from 'test-dex-sdk-core'
 
 import { useIsDarkMode } from '../../theme/components/ThemeToggle'
 import { LimitFormWrapper } from './Limit/LimitForm'

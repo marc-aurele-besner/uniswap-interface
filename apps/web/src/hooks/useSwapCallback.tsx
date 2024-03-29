@@ -1,4 +1,3 @@
-import { Percent, TradeType } from 'test-dex-sdk-core'
 import { FlatFeeOptions } from '@uniswap/universal-router-sdk'
 import { FeeOptions } from '@uniswap/v3-sdk'
 import { useWeb3React } from '@web3-react/core'
@@ -9,6 +8,7 @@ import { InterfaceTrade, TradeFillType } from 'state/routing/types'
 import { isClassicTrade, isUniswapXTrade } from 'state/routing/utils'
 import { useAddOrder } from 'state/signatures/hooks'
 import { UniswapXOrderDetails } from 'state/signatures/types'
+import { Percent, TradeType } from 'test-dex-sdk-core'
 
 import { useTransactionAdder } from '../state/transactions/hooks'
 import {

@@ -1,10 +1,10 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { UniswapXOrderStatus } from 'lib/hooks/orders/types'
 import { useCallback, useMemo } from 'react'
 import { useDispatch } from 'react-redux'
 import { useAppSelector } from 'state/hooks'
 import { OffchainOrderType } from 'state/routing/types'
+import { ChainId } from 'test-dex-sdk-core'
 
 import { addSignature } from './reducer'
 import { SignatureDetails, SignatureType, UniswapXOrderDetails } from './types'

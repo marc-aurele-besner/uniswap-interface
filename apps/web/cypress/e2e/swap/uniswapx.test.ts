@@ -1,5 +1,5 @@
-import { ChainId, CurrencyAmount } from 'test-dex-sdk-core'
 import { CyHttpMessages } from 'cypress/types/net-stubbing'
+import { ChainId, CurrencyAmount } from 'test-dex-sdk-core'
 
 import { FeatureFlag } from 'featureFlags'
 import { DAI, nativeOnChain, USDC_MAINNET } from '../../../src/constants/tokens'

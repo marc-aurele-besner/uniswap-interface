@@ -1,9 +1,9 @@
 import { formatEther } from '@ethersproject/units'
-import { ChainId } from 'test-dex-sdk-core'
 import { useUSDPrice } from 'hooks/useUSDPrice'
 import useNativeCurrency from 'lib/hooks/useNativeCurrency'
 import tryParseCurrencyAmount from 'lib/utils/tryParseCurrencyAmount'
 import { GenieAsset } from 'nft/types'
+import { ChainId } from 'test-dex-sdk-core'
 
 export const useNativeUsdPrice = (chainId: number = ChainId.MAINNET): number => {
   const nativeCurrency = useNativeCurrency(chainId)

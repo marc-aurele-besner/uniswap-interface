@@ -2,7 +2,6 @@ import { defaultAbiCoder } from '@ethersproject/abi'
 import { getAddress, isAddress } from '@ethersproject/address'
 import { Trans } from '@lingui/macro'
 import { InterfacePageName } from '@uniswap/analytics-events'
-import { Currency, CurrencyAmount, Token } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { Trace } from 'analytics'
 import { ButtonError } from 'components/Button'
@@ -24,6 +23,7 @@ import {
   useUserVotes,
 } from 'state/governance/hooks'
 import styled from 'styled-components'
+import { Currency, CurrencyAmount, Token } from 'test-dex-sdk-core'
 import { ExternalLink, ThemedText } from 'theme/components'
 
 import { LATEST_GOVERNOR_INDEX } from '../../constants/governance'

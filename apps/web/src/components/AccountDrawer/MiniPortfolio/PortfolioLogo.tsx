@@ -1,4 +1,3 @@
-import { ChainId, Currency } from 'test-dex-sdk-core'
 import blankTokenUrl from 'assets/svg/blank_token.svg'
 import { ReactComponent as UnknownStatus } from 'assets/svg/contract-interaction.svg'
 import { MissingImageLogo } from 'components/Logo/AssetLogo'
@@ -10,6 +9,7 @@ import useENSAvatar from 'hooks/useENSAvatar'
 import React from 'react'
 import { Loader } from 'react-feather'
 import styled from 'styled-components'
+import { ChainId, Currency } from 'test-dex-sdk-core'
 import { UniconV2 } from 'ui/src'
 
 const UnknownContract = styled(UnknownStatus)`

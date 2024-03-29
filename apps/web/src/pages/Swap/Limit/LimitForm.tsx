@@ -6,7 +6,6 @@ import {
   SharedEventName,
   SwapEventName,
 } from '@uniswap/analytics-events'
-import { Currency, CurrencyAmount, Token } from 'test-dex-sdk-core'
 import { UNIVERSAL_ROUTER_ADDRESS } from '@uniswap/universal-router-sdk'
 import { useWeb3React } from '@web3-react/core'
 import { Trace, TraceEvent } from 'analytics'
@@ -29,9 +28,10 @@ import { ArrowDown } from 'react-feather'
 import { Text } from 'rebass'
 import { LimitContextProvider, LimitState, useLimitContext } from 'state/limit/LimitContext'
 import { LimitOrderTrade, TradeFillType } from 'state/routing/types'
-import { useSwapActionHandlers } from 'state/swap/hooks'
 import { CurrencyState, useSwapAndLimitContext } from 'state/swap/SwapContext'
+import { useSwapActionHandlers } from 'state/swap/hooks'
 import styled, { useTheme } from 'styled-components'
+import { Currency, CurrencyAmount, Token } from 'test-dex-sdk-core'
 import { NumberType, useFormatter } from 'utils/formatNumbers'
 import { maxAmountSpend } from 'utils/maxAmountSpend'
 

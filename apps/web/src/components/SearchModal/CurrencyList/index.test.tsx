@@ -1,8 +1,8 @@
 import { screen } from '@testing-library/react'
-import { Currency, CurrencyAmount as mockCurrencyAmount, Token as mockToken } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { DAI, USDC_MAINNET, WBTC } from 'constants/tokens'
 import * as mockJSBI from 'jsbi'
+import { Currency, CurrencyAmount as mockCurrencyAmount, Token as mockToken } from 'test-dex-sdk-core'
 import { mocked } from 'test-utils/mocked'
 import { render } from 'test-utils/render'
 

@@ -1,4 +1,3 @@
-import { ChainId, Currency, Percent } from 'test-dex-sdk-core'
 import { useWeb3React } from '@web3-react/core'
 import { Field, SwapTab } from 'components/swap/constants'
 import { parsedQueryString } from 'hooks/useParsedQueryString'
@@ -14,6 +13,7 @@ import {
   useState,
 } from 'react'
 import { TradeState } from 'state/routing/types'
+import { ChainId, Currency, Percent } from 'test-dex-sdk-core'
 
 import { queryParametersToSwapState, SwapInfo, useDerivedSwapInfo } from './hooks'
 

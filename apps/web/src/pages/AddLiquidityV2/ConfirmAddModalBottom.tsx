@@ -1,6 +1,6 @@
 import { Trans } from '@lingui/macro'
-import { Currency, CurrencyAmount, Fraction, Percent } from 'test-dex-sdk-core'
 import { Text } from 'rebass'
+import { Currency, CurrencyAmount, Fraction, Percent } from 'test-dex-sdk-core'
 import { ThemedText } from 'theme/components'
 
 import { ButtonPrimary } from '../../components/Button'

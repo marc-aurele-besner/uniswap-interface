@@ -1,4 +1,3 @@
-import { ChainId as MockChainId } from 'test-dex-sdk-core'
 import {
   DAI as MockDAI,
   USDC_MAINNET as MockUSDC_MAINNET,
@@ -6,6 +5,7 @@ import {
   USDT as MockUSDT,
   WETH_POLYGON as MockWETH_POLYGON,
 } from 'constants/tokens'
+import { ChainId as MockChainId } from 'test-dex-sdk-core'
 import { renderHook } from 'test-utils/render'
 
 import { useAllTokensMultichain } from './Tokens'

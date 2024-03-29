@@ -1,8 +1,8 @@
-import { ChainId } from 'test-dex-sdk-core'
 import { getChainInfo } from 'constants/chainInfo'
 import { isSupportedChain, SupportedInterfaceChain } from 'constants/chains'
 import { CSSProperties, FunctionComponent } from 'react'
 import { useTheme } from 'styled-components'
+import { ChainId } from 'test-dex-sdk-core'
 import { useIsDarkMode } from 'theme/components/ThemeToggle'
 
 import { ReactComponent as arbitrum } from './ChainSymbols/arbitrum.svg'
